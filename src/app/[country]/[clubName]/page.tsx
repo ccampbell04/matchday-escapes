@@ -52,6 +52,9 @@ export default function Page({
       <CCol sm={12} className="marginContainer">
         <CCard>
           <CCardBody>{textFields.paragraph}</CCardBody>
+          {textFields.additionalInfo && (
+            <CCardBody>{textFields.additionalInfo}</CCardBody>
+          )}
         </CCard>
       </CCol>
 
