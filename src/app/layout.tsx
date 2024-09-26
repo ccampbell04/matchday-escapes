@@ -1,5 +1,6 @@
 import { Header } from "@/components/Header";
 import { getTextFields } from "@/utils/textFieldUtils";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import "@coreui/coreui/dist/css/coreui.min.css";
 import type { Metadata } from "next";
 import "./globals.css";
@@ -20,6 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <main>
+          <SpeedInsights />
           <Header textFields={headerTextFields} />
           {children}
         </main>
