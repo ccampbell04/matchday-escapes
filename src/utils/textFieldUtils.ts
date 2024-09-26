@@ -1,4 +1,4 @@
-import textFields from '@/textFields/textfields.json';
+import textFields from '@/textFields/textFields.json';
 
 type TextFields = {
   [key: string]: Record<string, any>;
