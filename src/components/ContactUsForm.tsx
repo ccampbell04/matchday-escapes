@@ -109,7 +109,7 @@ export function ContactUsForm({
         </CCol>
         <CCol xs={12}>
           <center>
-            <CButton color="primary" type="submit" disabled>
+            <CButton color="primary" type="submit">
               {textFields.submit}
             </CButton>
           </center>

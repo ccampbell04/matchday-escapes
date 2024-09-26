@@ -21,14 +21,15 @@ export function EmailTemplate({
 }): JSX.Element {
    return (
       <>
-         <h1>{name}</h1>
-         <h1>{club}</h1>
-         <h1>{email}</h1>
-         <h1>{phone}</h1>
-         <h1>{length}</h1>
-         <h1>{numberOfGuests}</h1>
-         <h1>{roomType}</h1>
-         <h1>{airports}</h1>
+         <h3>New Enquiry</h3>
+         <p>Name: {name}</p>
+         <p>Club: {club}</p>
+         <p>Email: {email}</p>
+         <p>Phone: {phone}</p>
+         <p>Length of stay: {length}</p>
+         <p>Number of guests: {numberOfGuests}</p>
+         <p>Room type: {roomType}</p>
+         <p>Departure airports: {airports}</p>
       </>
    )
 }
