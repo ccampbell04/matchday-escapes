@@ -25,3 +25,41 @@ body {
     text-wrap: balance;
   }
 }
+
+.image-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px; /* Space between images */
+  height: 100px; /* Fixed height for the row to base percentage height on */
+}
+
+.image-row img {
+  height: 100%; /* Take 100% of the parent's height */
+  object-fit: cover; /* Maintain aspect ratio while filling the container */
+}
+
+.landscape {
+  width: 22%; /* Landscape images take up more width */
+}
+
+.portrait {
+  width: 10%; /* Portrait images are narrower */
+}
+
+.formContainer {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.marginContainer {
+  padding: 5%;
+}
+
+h1 {
+  padding: 2%;
+}
+
+h2 {
+  padding: 2% 2% 2% 0;
+}

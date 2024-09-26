@@ -1,0 +1,116 @@
+{
+  "netherlands": {},
+  "germany": {},
+  "spain": {},
+  "italy": {},
+  "scotland": {},
+  "denmark": {},
+  "france": {},
+  "ajax": {
+    "pageTitle": "Ajax",
+    "heading": "Ajax",
+    "paragraph": "Experience the thrill of European football with Matchday Escapes as we take you to Amsterdam for an unforgettable trip to see Ajax play at the iconic Johan Cruijff Arena! Immerse yourself in the electric atmosphere of a live match while enjoying the city's vibrant culture. From the picturesque canals of the Grachtengordel and the historical beauty of the Rijksmuseum to the bustling Dam Square, you'll have the chance to explore Amsterdam’s famous landmarks before or after the game. With a rich history that includes four European Cup titles and a legacy of producing world-class talent, Ajax is one of the most storied clubs in football. Whether you're a die-hard Ajax fan or simply love the game, this is a football adventure you won't want to miss!",
+    "carousel": {
+      "slideHead": "Ajax Amsterdam",
+      "slide1Paragraph": "Ajax vs AEK Athens",
+      "slide2Paragraph": "Ajax vs Heracles Almelo",
+      "slide3Paragraph": "Ajax vs Almere City FC",
+      "slide4Paragraph": "Damrak, Amsterdam",
+      "slide5Paragraph": "Amsterdam Canals"
+    }
+  },
+  "psv": {},
+  "feyenoord": {},
+  "borussia-dortmund": {
+    "pageTitle": "Borussia Dortmund",
+    "heading": "Borussia Dortmund"
+  },
+  "hertha-bsc": {},
+  "hamburger-sv": {},
+  "monchengladbach": {},
+  "barcelona": {},
+  "atletico-madrid": {},
+  "inter-milan": {},
+  "ac-milan": {},
+  "as-roma": {},
+  "napoli": {},
+  "rangers": {},
+  "celtic": {},
+  "fc-copenhagen": {},
+  "brondby": {},
+  "psg": {},
+  "lyon": {},
+  "marseille": {},
+  "monaco": {},
+  "nice": {},
+
+  "generic-contact-page": {
+    "contactUsHeading": "To book your next MatchdayEscape, contact us today!",
+    "email": "Email:",
+    "phone": "Phone:",
+    "name": "Name:",
+    "club": "Club:",
+    "length": "Length of stay:",
+    "localAirport": {
+      "label": "Local airport(s):",
+      "placeholder": "Enter a list of convenient departure airports"
+    },
+    "roomType": {
+      "label": "Room type:",
+      "double": "Double",
+      "twin": "Twin",
+      "single": "Single",
+      "suite": "Suite"
+    },
+    "numberOfGuests": "Number of guests:",
+    "submit": "Submit"
+  },
+
+  "header": {
+    "heading": { "label": "MatchdayEscapes", "link": "/" },
+    "home": { "label": "Home", "link": "/" },
+    "viewTrips": "View Trips",
+    "dropDown": {
+      "Netherlands": [
+        { "label": "Ajax", "link": "/netherlands/ajax" },
+        { "label": "PSV", "link": "/netherlands/psv" },
+        { "label": "Feyenoord", "link": "/netherlands/feyenoord" }
+      ],
+      "Germany": [
+        { "label": "Borussia Dortmund", "link": "/germany/borussia-dortmund" },
+        { "label": "Hertha BSC", "link": "/germany/hertha-bsc" },
+        { "label": "Hamburger SV", "link": "/germany/hamburger-sv" },
+        { "label": "Monchengladbach", "link": "/germany/monchengladbach" }
+      ],
+      "Spain": [
+        { "label": "Barcelona", "link": "/spain/barcelona" },
+        { "label": "Atletico Madrid", "link": "/spain/atletico-madrid" }
+      ],
+      "Italy": [
+        { "label": "Inter Milan", "link": "/italy/inter-milan" },
+        { "label": "AC Milan", "link": "/italy/ac-milan" },
+        { "label": "AS Roma", "link": "/italy/as-roma" },
+        { "label": "Napoli", "link": "/italy/napoli" }
+      ],
+      "Scotland": [
+        { "label": "Rangers", "link": "/scotland/rangers" },
+        { "label": "Celtic", "link": "/scotland/celtic" }
+      ],
+      "Denmark": [
+        { "label": "FC Copenhagen", "link": "/denmark/fc-copenhagen" },
+        { "label": "Brondby", "link": "/denmark/brondby" }
+      ],
+      "France": [
+        { "label": "PSG", "link": "/france/psg" },
+        { "label": "Lyon", "link": "/france/lyon" },
+        { "label": "Marseille", "link": "/france/marseille" },
+        { "label": "Monaco", "link": "/france/monaco" },
+        { "label": "Nice", "link": "/france/nice" }
+      ]
+    },
+    "request": {
+      "label": "Request a destination",
+      "link": "/request"
+    }
+  }
+}
