@@ -8,6 +8,6 @@ export const COUNTRIES = {
     FRANCE: 'france',
     PORTUGAL: 'portugal',
     SWITZERLAND: 'switzerland',
-    CZECH: 'Czech Republic',
-    HUNGARY: 'Hungary'
+    CZECH: 'czech-republic',
+    HUNGARY: 'hungary'
 };
