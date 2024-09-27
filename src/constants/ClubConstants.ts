@@ -11,5 +11,6 @@ export const CLUBS = {
     [COUNTRIES.PORTUGAL]: ['benfica', 'sporting-lisbon', 'porto'],
     [COUNTRIES.SWITZERLAND]: ['basel', 'zurich', 'young-boys'],
     [COUNTRIES.CZECH]: ['sparta', 'slavia'],
-    [COUNTRIES.HUNGARY]: ['ferencvarosi']
+    [COUNTRIES.HUNGARY]: ['ferencvarosi'],
+    [COUNTRIES.POLAND]: ['legia-warsaw', 'wisla-krakow'],
 }

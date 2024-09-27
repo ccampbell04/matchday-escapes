@@ -446,6 +446,32 @@
       "slide5Paragraph": "placeholder"
     }
   },
+  "legia-warsaw": {
+    "pageTitle": "Legia Warsaw",
+    "heading": "Legia Warsaw",
+    "paragraph": "Legia placeholder",
+    "carousel": {
+      "slideHead": "Legia Warsaw",
+      "slide1Paragraph": "placeholder",
+      "slide2Paragraph": "placeholder",
+      "slide3Paragraph": "placeholder",
+      "slide4Paragraph": "placeholder",
+      "slide5Paragraph": "placeholder"
+    }
+  },
+  "wisla-krakow": {
+    "pageTitle": "Wisla Krakow",
+    "heading": "Wisla Krakow",
+    "paragraph": "Wisla placeholder",
+    "carousel": {
+      "slideHead": "Wisla Krakow",
+      "slide1Paragraph": "placeholder",
+      "slide2Paragraph": "placeholder",
+      "slide3Paragraph": "placeholder",
+      "slide4Paragraph": "placeholder",
+      "slide5Paragraph": "placeholder"
+    }
+  },
   "sparta": {
     "pageTitle": "Sparta Prague",
     "heading": "Sparta Prague",
@@ -505,7 +531,12 @@
       "suite": "Suite"
     },
     "numberOfGuests": "Number of guests:",
-    "submit": "Submit"
+    "submit": "Submit",
+    "toast": {
+      "heading": "MatchdayEscapes",
+      "time": "Now",
+      "message": "Thank you for your enqiury, we will be in touch shortly."
+    }
   },
 
   "header": {
@@ -563,6 +594,10 @@
         { "label": "Basel", "link": "/switzerland/basel" },
         { "label": "Zurich", "link": "/switzerland/zurich" },
         { "label": "Young Boys", "link": "/switzerland/young-boys" }
+      ],
+      "Poland": [
+        { "label": "Legia Warsaw", "link": "/poland/legia-warsaw" },
+        { "label": "Wisla Krakow", "link": "/poland/wisla-krakow" }
       ],
       "Czech Republic": [
         { "label": "Sparta Prague", "link": "/czech/sparta" },

@@ -1,7 +1,42 @@
 "use client";
 
-import { CButton, CCol, CForm, CFormInput, CFormSelect } from "@coreui/react";
-import { FormEvent, useState } from "react";
+import { CCol, CForm, CFormInput, CFormSelect } from "@coreui/react";
+import { FormEvent, useReducer } from "react";
+import { SubmitWithToast } from "./SubmitWithToast";
+
+type State = {
+  name: string;
+  club: string;
+  email: string;
+  phone: string;
+  length: string;
+  lengthGreaterThan7: string;
+  numberOfGuests: string;
+  guestsGreaterThan7: string;
+  roomType: string;
+  airports: string;
+};
+
+type Action = { type: string; value?: string };
+
+function reducer(state: State, action: Action): State {
+  if (action.type === "reset") {
+    return {
+      name: "",
+      club: state.club,
+      email: "",
+      phone: "",
+      length: "",
+      lengthGreaterThan7: "7",
+      numberOfGuests: "",
+      guestsGreaterThan7: "7",
+      roomType: "",
+      airports: "",
+    };
+  } else {
+    return { ...state, [action.type]: action.value };
+  }
+}
 
 export function ContactUsForm({
   textFields,
@@ -23,6 +58,8 @@ export function ContactUsForm({
         body: JSON.stringify(data), // Send form data as JSON
       });
 
+      dispatch({ type: "reset" });
+
       if (!response.ok) {
         throw new Error("Failed to send data");
       }
@@ -34,8 +71,18 @@ export function ContactUsForm({
     }
   };
 
-  const [guests, setGuests] = useState("1");
-  const [nights, setNights] = useState("2");
+  const [state, dispatch] = useReducer(reducer, {
+    name: "",
+    club: "",
+    email: "",
+    phone: "",
+    length: "2",
+    lengthGreaterThan7: "7",
+    numberOfGuests: "1",
+    guestsGreaterThan7: "7",
+    roomType: "",
+    airports: "",
+  });
 
   return (
     <div className="formContainer">
@@ -47,6 +94,8 @@ export function ContactUsForm({
             type="name"
             id="inputName"
             label={textFields.name}
+            value={state.name}
+            onChange={(e) => dispatch({ type: "name", value: e.target.value })}
           />
         </CCol>
         <CCol md={6}>
@@ -66,6 +115,8 @@ export function ContactUsForm({
             type="email"
             id="inputEmail"
             label={textFields.email}
+            value={state.email}
+            onChange={(e) => dispatch({ type: "email", value: e.target.value })}
           />
         </CCol>
         <CCol md={6}>
@@ -74,15 +125,19 @@ export function ContactUsForm({
             type="phone"
             id="inputPhone"
             label={textFields.phone}
+            value={state.phone}
+            onChange={(e) => dispatch({ type: "phone", value: e.target.value })}
           />
         </CCol>
-        {nights !== "7+" ? (
+        {state.length !== "7+" ? (
           <CCol md={3}>
             <CFormSelect
               name="length"
               id="inputLength"
               label={textFields.length}
-              onChange={(e) => setNights(e.target.value)}
+              onChange={(e) =>
+                dispatch({ type: "length", value: e.target.value })
+              }
             >
               {Array.from({ length: 6 }, (_, i) => (
                 <option key={i + 1} value={i + 1}>
@@ -99,18 +154,24 @@ export function ContactUsForm({
               type="number"
               id="inputLength"
               label={textFields.length}
-              placeholder={"7+"}
+              value={state.lengthGreaterThan7}
+              min={0}
+              onChange={(e) =>
+                dispatch({ type: "lengthGreaterThan7", value: e.target.value })
+              }
             />
           </CCol>
         )}
 
-        {guests !== "7+" ? (
+        {state.numberOfGuests !== "7+" ? (
           <CCol md={4}>
             <CFormSelect
               name="numberOfGuests"
               id="inputNumberOfGuests"
               label={textFields.numberOfGuests}
-              onChange={(e) => setGuests(e.target.value)}
+              onChange={(e) =>
+                dispatch({ type: "numberOfGuests", value: e.target.value })
+              }
             >
               {Array.from({ length: 6 }, (_, i) => (
                 <option key={i + 1} value={i + 1}>
@@ -127,7 +188,11 @@ export function ContactUsForm({
               type="number"
               id="inputNumberOfGuests"
               label={textFields.numberOfGuests}
-              placeholder={"7+"}
+              value={state.guestsGreaterThan7}
+              min={0}
+              onChange={(e) =>
+                dispatch({ type: "guestsGreaterThan7", value: e.target.value })
+              }
             />
           </CCol>
         )}
@@ -137,6 +202,9 @@ export function ContactUsForm({
             name="roomType"
             id="inputRoomType"
             label={textFields.roomType.label}
+            onChange={(e) =>
+              dispatch({ type: "roomType", value: e.target.value })
+            }
           >
             <option>{textFields.roomType.double}</option>
             <option>{textFields.roomType.twin}</option>
@@ -150,13 +218,15 @@ export function ContactUsForm({
             id="inputAirport"
             label={textFields.localAirport.label}
             placeholder={textFields.localAirport.placeholder}
+            value={state.airports}
+            onChange={(e) =>
+              dispatch({ type: "airports", value: e.target.value })
+            }
           />
         </CCol>
         <CCol xs={12}>
           <center>
-            <CButton color="primary" type="submit">
-              {textFields.submit}
-            </CButton>
+            <SubmitWithToast textFields={textFields} />
           </center>
         </CCol>
       </CForm>
