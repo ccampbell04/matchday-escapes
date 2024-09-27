@@ -55,6 +55,7 @@
     "pageTitle": "Bayern Munich",
     "heading": "Bayern Munich",
     "paragraph": "Bayern placeholder",
+    "additionalInfo": "Limited tickets disclaimer",
     "carousel": {
       "slideHead": "Bayern Munich",
       "slide1Paragraph": "placeholder",
@@ -68,6 +69,7 @@
     "pageTitle": "Borussia Dortmund",
     "heading": "Borussia Dortmund",
     "paragraph": "Dortmund placeholder",
+    "additionalInfo": "Limited tickets disclaimer",
     "carousel": {
       "slideHead": "Bosussia Dortmund",
       "slide1Paragraph": "placeholder",
@@ -367,6 +369,7 @@
     "pageTitle": "SL Benfica",
     "heading": "SL Benfica",
     "paragraph": "Benfica placeholder",
+    "additionalInfo": "Lisbon lions placeholder",
     "carousel": {
       "slideHead": "SL Benfica",
       "slide1Paragraph": "placeholder",
@@ -406,6 +409,7 @@
     "pageTitle": "FC Basel 1893",
     "heading": "FC Basel 1893",
     "paragraph": "Basel placeholder",
+    "additionalInfo": "Lisbon lions placeholder",
     "carousel": {
       "slideHead": "FC Basel 1893",
       "slide1Paragraph": "placeholder",
