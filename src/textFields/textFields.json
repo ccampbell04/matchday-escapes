@@ -6,6 +6,11 @@
   "scotland": {},
   "denmark": {},
   "france": {},
+  "portugal": {},
+  "switzerland": {},
+  "czech": {},
+  "hungary": {},
+  
   "ajax": {
     "pageTitle": "Ajax",
     "heading": "Ajax",
@@ -59,6 +64,7 @@
   "ac-milan": {},
   "as-roma": {},
   "napoli": {},
+  "juventus": {},
   "rangers": {},
   "celtic": {},
   "fc-copenhagen": {
@@ -92,6 +98,15 @@
   "marseille": {},
   "monaco": {},
   "nice": {},
+  "benfica": {},
+  "sporting-lisbon": {},
+  "porto": {},
+  "basel": {},
+  "zurich": {},
+  "young-boys": {},
+  "sparta": {},
+  "slavia": {},
+  "ferencvarosi": {},
 
   "generic-contact-page": {
     "contactUsHeading": "To book your next MatchdayEscape, contact us today!",
@@ -139,7 +154,8 @@
         { "label": "Inter Milan", "link": "/italy/inter-milan" },
         { "label": "AC Milan", "link": "/italy/ac-milan" },
         { "label": "AS Roma", "link": "/italy/as-roma" },
-        { "label": "Napoli", "link": "/italy/napoli" }
+        { "label": "Napoli", "link": "/italy/napoli" },
+        { "label": "Juventus", "link": "/italy/juventus" }
       ],
       "Scotland": [
         { "label": "Rangers", "link": "/scotland/rangers" },
@@ -155,7 +171,24 @@
         { "label": "Marseille", "link": "/france/marseille" },
         { "label": "Monaco", "link": "/france/monaco" },
         { "label": "Nice", "link": "/france/nice" }
-      ]
+      ],
+      "Portugal": [
+        { "label": "Benfica", "link": "/portugal/benfica" },
+        { "label": "Sporting Lisbon", "link": "/portugal/sporting-lisbon" },
+        { "label": "Porto", "link": "/portugal/porto" }
+      ],
+      "Switzerland": [
+        { "label": "Basel", "link": "/switzerland/basel" },
+        { "label": "Zurich", "link": "/switzerland/zurich" },
+        { "label": "Young Boys", "link": "/switzerland/young-boys" }
+      ],
+      "Czech Republic": [
+        { "label": "Sparta Prague", "link": "/czech/sparta" },
+        { "label": "Slavia Prague", "link": "/czech/slavia" }
+      ],
+      "Hungary": [
+        { "label": "Ferencvariosi", "link": "/hungary/ferencvarosi" }
+      ],
     },
     "request": {
       "label": "Request a destination",
