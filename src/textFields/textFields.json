@@ -28,7 +28,7 @@
   "psv": {
     "pageTitle": "PSV Eindhoven",
     "heading": "PSV Eindhoven",
-    "paragraph": "PSV placeholder",
+    "paragraph": "Embark on a thrilling football trip to the Netherlands as you experience PSV Eindhoven at the iconic Philips Stadion! Known for its rich football history and success both domestically and in Europe, PSV is one of the Netherlands' most decorated clubs, with a legacy that includes Eredivisie titles and a famous European Cup triumph. On matchday, the Philips Stadion comes alive with passionate fans, creating an electrifying atmosphere that every football lover should experience. Beyond the football, Eindhoven offers a blend of modern innovation and Dutch charm—explore the city's creative Strijp-S district, visit the Van Abbemuseum, or relax in one of the many cozy cafés around the city center. Whether you're a devoted PSV supporter or simply eager to experience top-tier Dutch football, this trip promises an exciting journey into the heart of the Netherlands!",
     "carousel": {
       "slideHead": "PSV Eindhoven",
       "slide1Paragraph": "placeholder",
@@ -41,7 +41,7 @@
   "feyenoord": {
     "pageTitle": "Feyenoord",
     "heading": "Feyerenoord",
-    "paragraph": "Feyenoord placeholder",
+    "paragraph": "Get ready for an unforgettable football experience in Rotterdam as you watch Feyenoord play at the legendary De Kuip Stadium! As one of the Netherlands' most historic clubs, Feyenoord boasts a proud tradition of domestic and European success, with passionate fans that make matchday at De Kuip an electrifying event. Known for their fierce rivalries and unwavering supporters, Feyenoord creates one of the most intense football atmospheres in the country. Outside of the game, Rotterdam offers a wealth of attractions—explore the cutting-edge architecture of the Markthal, take in stunning views from the Euromast Tower, or enjoy a riverside stroll along the iconic Erasmus Bridge. Whether you're a lifelong Feyenoord fan or simply looking for a football experience in one of the Netherlands’ most dynamic cities, this trip promises a perfect blend of sporting excitement and urban exploration!",
     "carousel": {
       "slideHead": "Feyenoord",
       "slide1Paragraph": "placeholder",
@@ -54,8 +54,8 @@
   "bayern-munich": {
     "pageTitle": "Bayern Munich",
     "heading": "Bayern Munich",
-    "paragraph": "Bayern placeholder",
-    "additionalInfo": "Limited tickets disclaimer",
+    "paragraph": "Embark on an extraordinary football journey to Munich and witness Bayern Munich, one of the most successful clubs in world football, at the iconic Allianz Arena! With an unparalleled legacy of Bundesliga dominance and multiple Champions League titles, Bayern Munich offers a matchday experience filled with elite football and passionate support. The Allianz Arena, known for its stunning architecture and vibrant atmosphere, is the perfect backdrop for the action on the pitch. Beyond the game, Munich is a city rich in history and culture—visit the historic Marienplatz, take a stroll through the beautiful English Garden, or explore the impressive Nymphenburg Palace. Whether you're a dedicated Bayern fan or just a football enthusiast eager to witness one of the game's greatest teams, this trip combines world-class football with the charm and beauty of Munich!",
+    "additionalInfo": "Please note large groups may encounter challenges due to membership constraints, so it’s advisable to check availability and make arrangements in advance to ensure a smooth experience.",
     "carousel": {
       "slideHead": "Bayern Munich",
       "slide1Paragraph": "placeholder",
@@ -68,8 +68,8 @@
   "borussia-dortmund": {
     "pageTitle": "Borussia Dortmund",
     "heading": "Borussia Dortmund",
-    "paragraph": "Dortmund placeholder",
-    "additionalInfo": "Limited tickets disclaimer",
+    "paragraph": "Prepare for an electrifying football experience in Dortmund as you watch Borussia Dortmund at the legendary Signal Iduna Park, home to one of the most passionate fanbases in world football! Known for its famous 'Yellow Wall', a sea of 25,000 standing fans, the atmosphere inside the stadium is nothing short of breathtaking, making it a must-visit for any football fan. Borussia Dortmund, with its rich history of Bundesliga titles and European triumphs, plays an exhilarating style of football that keeps fans on the edge of their seats. Beyond the match, Dortmund offers a mix of culture and history—explore the fascinating Zollverein Coal Mine, visit the Westfalenpark, or take a stroll through the vibrant city center. Whether you're a die-hard BVB supporter or simply eager to experience the magic of football in one of Germany's most storied stadiums, this trip is an unforgettable adventure into the heart of German football!",
+    "additionalInfo": "Please note large groups may encounter challenges due to membership constraints, so it’s advisable to check availability and make arrangements in advance to ensure a smooth experience.",
     "carousel": {
       "slideHead": "Bosussia Dortmund",
       "slide1Paragraph": "placeholder",
@@ -95,7 +95,7 @@
   "hamburger-sv": {
     "pageTitle": "Hamburger SV",
     "heading": "Hamburger SV",
-    "paragraph": "Hamburg placeholder",
+    "paragraph": "Join us for an exciting football adventure in Hamburg as you experience Hamburger SV at the historic Volksparkstadion! Once a dominant force in German football, HSV is regarded as a sleeping giant, striving to reclaim its former glory in the Bundesliga after recent struggles. With a passionate fanbase and a rich legacy that includes multiple Bundesliga titles and a storied history in European competitions, the atmosphere at Volksparkstadion on matchday is electric, as dedicated supporters rally behind their team. Beyond the thrilling football, Hamburg offers a wealth of attractions—explore the picturesque canals of the Speicherstadt, visit the iconic Elbphilharmonie concert hall, or take a leisurely walk through the beautiful Planten un Blomen park. Whether you’re a lifelong HSV fan or simply looking to immerse yourself in the unique culture of Hamburg, this trip promises a perfect blend of exhilarating football and captivating city exploration!",
     "carousel": {
       "slideHead": "Hamburger SV",
       "slide1Paragraph": "placeholder",
@@ -108,7 +108,7 @@
   "monchengladbach": {
     "pageTitle": "Borussia Monchengladbach",
     "heading": "Borussia Monchengladbach",
-    "paragraph": "Gladbach placeholder",
+    "paragraph": "Embark on an exciting football journey to Germany as you witness Borussia Mönchengladbach at the iconic Borussia-Park! Known for their storied history and passionate fanbase, Borussia Mönchengladbach has long been a competitive force in the Bundesliga and boasts a rich tradition that includes multiple league titles and memorable European campaigns. The atmosphere at Borussia-Park on matchday is electric, with fans creating an unforgettable experience as they cheer for their team. Beyond the thrilling action on the pitch, Mönchengladbach offers a charming blend of culture and history—explore the vibrant Altstadt, visit the fascinating Museum Abteiberg, or take a stroll through the lush Grünstraße park. Whether you’re a devoted Gladbach supporter or simply eager to experience top-tier German football, this trip promises an unforgettable adventure filled with excitement and local culture!",
     "carousel": {
       "slideHead": "Borussia Monchengladbach",
       "slide1Paragraph": "placeholder",
@@ -121,7 +121,7 @@
   "barcelona": {
     "pageTitle": "Barcelona",
     "heading": "Barcelona",
-    "paragraph": "Barca placeholder",
+    "paragraph": "Get ready for an unforgettable football experience in Barcelona as you witness FC Barcelona at the iconic Camp Nou! Renowned as one of the most successful and storied clubs in football history, Barça boasts a legacy filled with numerous La Liga titles and UEFA Champions League victories. The atmosphere at Camp Nou on matchday is electric, as passionate supporters gather to cheer on their team, making it a must-see for any football lover. Beyond the thrilling action on the pitch, Barcelona offers a wealth of attractions—explore the stunning architecture of Antoni Gaudí, including the breathtaking Sagrada Família and Park Güell, or wander through the vibrant streets of the Gothic Quarter. Whether you're a lifelong Barça fan or just eager to experience the magic of Spanish football, this trip combines world-class sport with the rich culture and beauty of Barcelona!",
     "carousel": {
       "slideHead": "Barcelona",
       "slide1Paragraph": "placeholder",
@@ -134,7 +134,7 @@
   "atletico-madrid": {
     "pageTitle": "Atletico Madrid",
     "heading": "Atletico Madrid",
-    "paragraph": "Atleti placeholder",
+    "paragraph": "Prepare for an exhilarating football experience in Madrid as you witness Atlético Madrid at the iconic Wanda Metropolitano Stadium! Known for their passionate fanbase and fierce competitive spirit, Atlético Madrid has established itself as one of Spain's top clubs, boasting a rich history filled with La Liga titles and notable appearances in the UEFA Champions League. The atmosphere at Wanda Metropolitano on matchday is electric, with dedicated supporters creating an unforgettable backdrop for the action on the pitch. Beyond the excitement of football, Madrid offers a wealth of cultural attractions—explore the stunning architecture of Plaza Mayor, visit the famous Prado Museum, or enjoy the lively ambiance of Retiro Park. Whether you're a devoted Colchonero or simply eager to experience elite Spanish football, this trip promises a thrilling combination of top-tier sport and the vibrant culture of Spain's capital!",
     "carousel": {
       "slideHead": "Atletico Madrid",
       "slide1Paragraph": "placeholder",
@@ -147,7 +147,7 @@
   "valencia": {
     "pageTitle": "Valencia",
     "heading": "Valencia",
-    "paragraph": "Valencia placeholder",
+    "paragraph": "Experience the passion of Spanish football in Valencia as you watch Valencia CF at the historic Estadio de Mestalla! Once a dominant force in La Liga, Valencia has faced recent struggles, battling to regain their status among Spain's elite clubs. Despite these challenges, the team is known for its passionate fanbase and a rich history that includes multiple league titles and memorable European campaigns. The atmosphere at Mestalla on matchday is electric, as dedicated supporters rally behind their team, creating an unforgettable experience. Beyond the thrilling football, Valencia offers a blend of culture and history—explore the stunning architecture of the City of Arts and Sciences, stroll through the vibrant Mercado Central, or relax in the beautiful Turia Gardens. Whether you're a loyal Valencia supporter or simply looking to enjoy top-tier Spanish football, this trip promises a captivating mix of sporting excitement and local charm!",
     "carousel": {
       "slideHead": "Valencia",
       "slide1Paragraph": "placeholder",
@@ -160,7 +160,7 @@
   "sevilla": {
     "pageTitle": "Sevilla",
     "heading": "Sevilla",
-    "paragraph": "Sevilla placeholder",
+    "paragraph": "Prepare for an incredible football journey in Seville as you witness Sevilla FC at the iconic Ramón Sánchez-Pizjuán Stadium! Known for their passionate fanbase and a rich footballing history, Sevilla has become synonymous with success in the UEFA Europa League, boasting an unprecedented record of victories that showcases their prowess on the European stage. The atmosphere at the stadium on matchday is electric, with devoted supporters creating a vibrant backdrop that amplifies the excitement of every match. Beyond the thrilling action on the pitch, Seville is a city rich in culture and history—explore the stunning Alcázar, wander through the picturesque Barrio Santa Cruz, or enjoy the lively ambiance of the Plaza de España. Whether you're a dedicated Sevilla fan or simply eager to experience top-tier Spanish football, this trip promises a captivating blend of elite sport and the enchanting charm of Andalusia!",
     "carousel": {
       "slideHead": "Sevilla",
       "slide1Paragraph": "placeholder",
@@ -173,7 +173,7 @@
   "real-betis": {
     "pageTitle": "Real Betis",
     "heading": "Real Betis",
-    "paragraph": "Betis placeholder",
+    "paragraph": "Get ready for an exciting football adventure in Seville as you experience Real Betis at the lively Estadio Benito Villamarín! Known for their passionate supporters and vibrant atmosphere, Real Betis has a storied history in Spanish football, consistently competing in La Liga and making notable appearances in European competitions. The energy at the stadium on matchday is contagious, as the 'Verdiblancos' fans create an electrifying environment that makes every match unforgettable. Beyond the thrilling football, Seville offers a rich cultural experience—explore the historic Alcázar, wander through the charming streets of the Santa Cruz district, or enjoy a leisurely afternoon in the beautiful Maria Luisa Park. Whether you're a dedicated Betis fan or simply looking to immerse yourself in the local football culture, this trip promises a fantastic blend of elite sport and the captivating charm of Andalusia!",
     "carousel": {
       "slideHead": "Real Betis",
       "slide1Paragraph": "placeholder",
@@ -199,7 +199,7 @@
   "ac-milan": {
     "pageTitle": "AC Milan",
     "heading": "AC Milan",
-    "paragraph": "AC placeholder",
+    "paragraph": "Get ready for an unforgettable football experience in Milan as you witness AC Milan at the iconic San Siro Stadium! Renowned as one of the most successful clubs in football history, AC Milan boasts a rich legacy of Serie A titles and European triumphs that has cemented their place among the elite. The atmosphere at San Siro on matchday is electric, with passionate fans creating a stunning backdrop that adds to the excitement of every match. Beyond the thrilling football, Milan is a city steeped in culture and style—explore the breathtaking Duomo, shop in the luxury boutiques of the Galleria Vittorio Emanuele II, or visit the famous La Scala opera house. Whether you’re a devoted Rossoneri supporter or simply eager to experience world-class football, this trip promises a perfect blend of elite sport and the vibrant culture of Italy’s fashion capital!",
     "carousel": {
       "slideHead": "AC Milan",
       "slide1Paragraph": "placeholder",
@@ -212,7 +212,7 @@
   "as-roma": {
     "pageTitle": "AS Roma",
     "heading": "AS Roma",
-    "paragraph": "Roma placeholder",
+    "paragraph": "Embark on an unforgettable football journey to the heart of Italy as you watch AS Roma at the iconic Stadio Olimpico! Known for their passionate fanbase and rich history, AS Roma has established itself as a major force in Italian football, consistently competing for titles in Serie A and making a mark in European competitions. The atmosphere at the Stadio Olimpico on matchday is electric, with devoted supporters creating an incredible backdrop that fuels the excitement of the game. Beyond the thrilling football, Rome offers a wealth of cultural and historical attractions—explore the ancient ruins of the Colosseum, stroll through the picturesque streets of Trastevere, or marvel at the stunning art in the Vatican Museums. Whether you’re a dedicated Roma fan or simply looking to immerse yourself in the rich football culture of Italy, this trip promises an amazing blend of top-tier sport and the enchanting beauty of the Eternal City!",
     "carousel": {
       "slideHead": "AS Roma",
       "slide1Paragraph": "placeholder",
@@ -225,7 +225,7 @@
   "napoli": {
     "pageTitle": "SSC Napoli",
     "heading": "SSC Napoli",
-    "paragraph": "Napoli placeholder",
+    "paragraph": "Get ready for an exhilarating football experience in Naples as you watch SSC Napoli at the iconic Stadio Diego Armando Maradona! Known for their passionate fanbase, Napoli recently celebrated a triumphant return to glory, winning their first Serie A title in over 30 years, igniting unforgettable scenes of joy and celebration throughout the city. The atmosphere at the stadium on matchday is electric, with devoted supporters creating an incredible backdrop as they cheer for their beloved team. Beyond the thrilling football, Naples offers a rich cultural experience—explore the historic center, a UNESCO World Heritage site, indulge in authentic Neapolitan pizza, or take a stroll along the stunning waterfront. Whether you’re a dedicated Napoli supporter or simply eager to witness the magic of Italian football, this trip promises an exciting blend of elite sport and the vibrant spirit of one of Italy's most passionate cities!",
     "carousel": {
       "slideHead": "SSC Napoli",
       "slide1Paragraph": "placeholder",
@@ -238,7 +238,7 @@
   "juventus": {
     "pageTitle": "Juventus",
     "heading": "Juventus",
-    "paragraph": "Juve placeholder",
+    "paragraph": "Prepare for an incredible football experience in Turin as you watch Juventus at the iconic Allianz Stadium! Renowned as one of the most successful clubs in Italian football history, Juventus boasts a rich legacy filled with numerous Serie A titles and a proud tradition in European competitions. The atmosphere at the Allianz Stadium on matchday is electric, with passionate supporters creating an exhilarating backdrop that elevates the excitement of every match. Beyond the thrilling football, Turin offers a wealth of attractions—explore the stunning architecture of the Mole Antonelliana, visit the historic Royal Palace, or indulge in the city’s famous culinary delights, including rich chocolates and exquisite truffles. Whether you’re a devoted Bianconeri fan or simply looking to immerse yourself in the world of elite football, this trip promises a captivating blend of top-tier sport and the charm of Italy’s elegant northern city!",
     "carousel": {
       "slideHead": "Juventus",
       "slide1Paragraph": "placeholder",
@@ -251,7 +251,7 @@
   "celtic": {
     "pageTitle": "Celtic",
     "heading": "Celtic",
-    "paragraph": "Celtic placeholder",
+    "paragraph": "Get ready for an electrifying football experience in Glasgow as you watch Celtic FC at the iconic Celtic Park! Known as one of the most successful clubs in Scottish football history, Celtic boasts a passionate fanbase and a rich legacy filled with numerous league titles and memorable European triumphs. The atmosphere at Celtic Park on matchday is nothing short of legendary, with devoted supporters creating an unforgettable backdrop as they cheer for their team. Beyond the thrilling football, Glasgow offers a vibrant cultural scene—explore the stunning architecture of the city, visit the Kelvingrove Art Gallery and Museum, or take a stroll through the beautiful Glasgow Green. Whether you’re a dedicated Celtic supporter or simply eager to experience the magic of Scottish football, this trip promises an incredible blend of elite sport and the lively spirit of one of the UK’s most dynamic cities!",
     "carousel": {
       "slideHead": "Celtic",
       "slide1Paragraph": "placeholder",
@@ -264,7 +264,7 @@
   "rangers": {
     "pageTitle": "Rangers",
     "heading": "Rangers",
-    "paragraph": "Rangers placeholder",
+    "paragraph": "Prepare for an exhilarating football adventure in Glasgow as you experience Rangers FC at the iconic Ibrox Stadium! Renowned as one of the most successful clubs in football history, Rangers boasts a passionate fanbase and a rich legacy filled with numerous league titles and European successes. The atmosphere at Ibrox on matchday is electric, with devoted supporters creating a vibrant and unforgettable backdrop that elevates the excitement of every match. Beyond the thrilling football, Glasgow offers a wealth of cultural attractions—explore the historic streets of the city, visit the renowned Kelvingrove Art Gallery and Museum, or relax in the beautiful Botanic Gardens. Whether you’re a devoted Rangers supporter or simply eager to immerse yourself in the rich football culture of Scotland, this trip promises an incredible blend of top-tier sport and the lively spirit of one of the UK’s most dynamic cities!",
     "carousel": {
       "slideHead": "Rangers",
       "slide1Paragraph": "placeholder",
@@ -303,7 +303,7 @@
   "psg": {
     "pageTitle": "Paris Saint-Germain",
     "heading": "Paris Saint-Germain",
-    "paragraph": "PSG placeholder",
+    "paragraph": "Get ready for an unforgettable football experience in Paris as you watch Paris Saint-Germain at the iconic Parc des Princes! Renowned for its star-studded squad and high-profile successes, PSG has established itself as a dominant force in French football and a contender on the European stage. The atmosphere at Parc des Princes on matchday is electric, with passionate fans creating an exhilarating backdrop that amplifies the excitement of every match. Beyond the thrilling football, Paris offers a wealth of cultural treasures—explore the breathtaking architecture of the Eiffel Tower, visit the world-famous Louvre Museum, or take a leisurely stroll along the Seine River. Whether you’re a dedicated PSG supporter or simply eager to experience elite football in the City of Light, this trip promises a captivating blend of top-tier sport and the enchanting charm of one of the world’s most beautiful cities!",
     "carousel": {
       "slideHead": "Paris Saint-Germain",
       "slide1Paragraph": "placeholder",
@@ -316,7 +316,7 @@
   "lyon": {
     "pageTitle": "Olympique Lyonnais",
     "heading": "Olympique Lyonnais",
-    "paragraph": "Lyon placeholder",
+    "paragraph": "Get ready for an exciting football experience in Lyon as you watch Olympique Lyonnais at the iconic Parc Olympique Lyonnais! Known for its strong squad and rich history in French football, Lyon has consistently been a competitive force in Ligue 1 and has made its mark in European competitions as well. The atmosphere at Parc Olympique Lyonnais on matchday is vibrant, with passionate fans creating an unforgettable backdrop that elevates the excitement of every match. Beyond the thrilling football, Lyon is renowned for its culinary scene—explore the charming old town, visit the historic Basilica of Notre-Dame de Fourvière, or indulge in delicious local specialties at one of the city’s many bouchons. Whether you’re a dedicated Lyon supporter or simply eager to immerse yourself in the rich football culture of France, this trip promises an incredible blend of top-tier sport and the captivating charm of one of France’s most beautiful cities!",
     "carousel": {
       "slideHead": "Olympique Lyonnais",
       "slide1Paragraph": "placeholder",
@@ -329,7 +329,7 @@
   "marseille": {
     "pageTitle": "Olympique de Marseille",
     "heading": "Olympique de Marseille",
-    "paragraph": "Marseille placeholder",
+    "paragraph": "Get ready for an unforgettable football experience in Marseille as you watch Olympique de Marseille at the iconic Stade Vélodrome! Known for its passionate squad and rich history, Marseille is one of France's most storied clubs, boasting a loyal fanbase and a legacy that includes multiple Ligue 1 titles and a memorable Champions League victory. The atmosphere at Stade Vélodrome on matchday is electric, with passionate supporters creating a vibrant backdrop that elevates the excitement of every match. Beyond the thrilling football, Marseille offers a wealth of cultural attractions—explore the stunning Calanques National Park, visit the historic Basilique Notre-Dame de la Garde, or enjoy fresh seafood along the picturesque Old Port. Whether you’re a dedicated Marseille supporter or simply eager to experience the magic of French football, this trip promises an incredible blend of top-tier sport and the vibrant charm of one of France’s most dynamic cities!",
     "carousel": {
       "slideHead": "Olympique de Marseille",
       "slide1Paragraph": "placeholder",
@@ -342,7 +342,7 @@
   "monaco": {
     "pageTitle": "AS Monaco",
     "heading": "AS Monaco",
-    "paragraph": "Monaco placeholder",
+    "paragraph": "Get ready for an exhilarating football experience in Monaco as you watch AS Monaco at the iconic Stade Louis II! Known for its talented squad and a rich history in French football, AS Monaco has consistently been a formidable force in Ligue 1 and has made its mark in European competitions as well. The emergence of stars like Kylian Mbappé, who began his incredible journey with Monaco, has further solidified the club’s reputation for developing world-class talent. The atmosphere at Stade Louis II on matchday is vibrant, with passionate fans creating an unforgettable backdrop that enhances the excitement of every match. Beyond the thrilling football, Monaco offers a wealth of attractions—explore the stunning coastal views, visit the famous Casino de Monte-Carlo, or take a leisurely stroll through the picturesque streets of the old town. Whether you’re a dedicated Monaco supporter or simply eager to experience elite football in this glamorous locale, this trip promises a captivating blend of top-tier sport and the enchanting charm of one of the world’s most iconic destinations!",
     "carousel": {
       "slideHead": "AS Monaco",
       "slide1Paragraph": "placeholder",
@@ -355,7 +355,7 @@
   "nice": {
     "pageTitle": "OGC Nice",
     "heading": "OGC Nice",
-    "paragraph": "Nice placeholder",
+    "paragraph": "Prepare for an exciting football experience in Nice as you watch OGC Nice at the stunning Allianz Riviera! Known for its talented squad and vibrant playing style, OGC Nice has been a competitive force in Ligue 1, consistently vying for European qualification. The atmosphere at Allianz Riviera on matchday is electric, with passionate supporters creating a lively backdrop that amplifies the excitement of every match. Beyond the thrilling football, Nice offers a wealth of attractions—explore the picturesque Promenade des Anglais, visit the charming old town with its vibrant markets, or relax on the beautiful beaches along the French Riviera. Whether you’re a dedicated Nice supporter or simply eager to immerse yourself in the rich football culture of France, this trip promises a fantastic blend of top-tier sport and the captivating charm of one of the Côte d'Azur’s most enchanting cities!",
     "carousel": {
       "slideHead": "OGC Nice",
       "slide1Paragraph": "placeholder",
@@ -368,8 +368,8 @@
   "benfica": {
     "pageTitle": "SL Benfica",
     "heading": "SL Benfica",
-    "paragraph": "Benfica placeholder",
-    "additionalInfo": "Lisbon lions placeholder",
+    "paragraph": "Get ready for an unforgettable football experience in Lisbon as you watch SL Benfica at the iconic Estádio da Luz! Known for its illustrious history and passionate squad, Benfica is one of Portugal's most successful clubs, boasting numerous Primeira Liga titles and a rich tradition in European competitions. The atmosphere at Estádio da Luz on matchday is electric, with dedicated supporters creating a vibrant backdrop that elevates the excitement of every match. Beyond the thrilling football, Lisbon offers a wealth of cultural attractions—explore the historic Alfama district, visit the stunning Jerónimos Monastery, or enjoy the breathtaking views from the Miradouro da Senhora do Monte. Whether you’re a devoted Benfica supporter or simply eager to experience the magic of Portuguese football, this trip promises an incredible blend of top-tier sport and the enchanting charm of one of Europe’s most beautiful cities!",
+    "additionalInfo": "Celtic fans visiting Lisbon can pay homage to the legendary 'Lisbon Lions' by exploring Estádio da Luz, where they can connect with the history of Celtic's triumph as the first British team to win the European Cup in 1967. It’s a unique chance to celebrate this iconic moment in football history.",
     "carousel": {
       "slideHead": "SL Benfica",
       "slide1Paragraph": "placeholder",
@@ -382,8 +382,8 @@
   "sporting-lisbon": {
     "pageTitle": "Sporting CP",
     "heading": "Sporting CP",
-    "paragraph": "Sporting placeholder",
-    "additionalInfo": "Lisbon lions placeholder",
+    "paragraph": "Get ready for an exciting football experience in Lisbon as you watch Sporting CP at the iconic Estádio José Alvalade! Known for its passionate squad and a rich history, Sporting CP is one of Portugal's most successful clubs, consistently competing at the top of the Primeira Liga and making notable appearances in European competitions. The atmosphere at Estádio José Alvalade on matchday is electric, with dedicated supporters creating an unforgettable backdrop that elevates the excitement of every match. Beyond the thrilling football, Lisbon offers a wealth of attractions—explore the historic Alfama district, visit the stunning Belém Tower, or indulge in delicious local pastries like pastéis de nata. Whether you’re a devoted Sporting supporter or simply eager to immerse yourself in the rich football culture of Portugal, this trip promises an incredible blend of top-tier sport and the enchanting charm of one of Europe’s most captivating cities!",
+    "additionalInfo": "Celtic fans visiting Lisbon can pay homage to the legendary 'Lisbon Lions' by exploring Estádio da Luz, where they can connect with the history of Celtic's triumph as the first British team to win the European Cup in 1967. It’s a unique chance to celebrate this iconic moment in football history.",
     "carousel": {
       "slideHead": "Sporting CP",
       "slide1Paragraph": "placeholder",
@@ -396,7 +396,7 @@
   "porto": {
     "pageTitle": "FC Porto",
     "heading": "FC Porto",
-    "paragraph": "Porto placeholder",
+    "paragraph": "Prepare for an unforgettable football experience in Porto as you watch FC Porto at the iconic Estádio do Dragão! Known for its talented squad and rich history, FC Porto is one of Portugal's most successful clubs, boasting numerous Primeira Liga titles and a proud tradition in European competitions, including the UEFA Champions League. The atmosphere at Estádio do Dragão on matchday is electric, with passionate supporters creating a vibrant backdrop that enhances the excitement of every match. Beyond the thrilling football, Porto offers a wealth of attractions—explore the historic Ribeira district, visit the stunning Livraria Lello, or enjoy a wine tasting in the nearby Douro Valley. Whether you’re a dedicated Porto supporter or simply eager to experience elite football in this beautiful city, this trip promises an incredible blend of top-tier sport and the captivating charm of one of Portugal's most enchanting destinations!",
     "carousel": {
       "slideHead": "FC Porto",
       "slide1Paragraph": "placeholder",
@@ -409,8 +409,7 @@
   "basel": {
     "pageTitle": "FC Basel 1893",
     "heading": "FC Basel 1893",
-    "paragraph": "Basel placeholder",
-    "additionalInfo": "Lisbon lions placeholder",
+    "paragraph": "Get ready for an exciting football experience in Basel as you watch FC Basel at the iconic St. Jakob-Park! Known for its talented squad and rich history, FC Basel is one of Switzerland's most successful clubs, consistently competing at the top of the Swiss Super League and making a significant impact in European competitions. The atmosphere at St. Jakob-Park on matchday is electric, with passionate fans creating a lively backdrop that elevates the excitement of every match. Beyond the thrilling football, Basel offers a wealth of attractions—explore the charming Old Town, visit the renowned Kunstmuseum, or take a stroll along the Rhine River. Whether you’re a dedicated Basel supporter or simply eager to immerse yourself in the rich football culture of Switzerland, this trip promises a fantastic blend of top-tier sport and the captivating charm of one of Europe’s most beautiful cities!",
     "carousel": {
       "slideHead": "FC Basel 1893",
       "slide1Paragraph": "placeholder",
@@ -423,7 +422,7 @@
   "zurich": {
     "pageTitle": "FC Zurich",
     "heading": "FC Zurich",
-    "paragraph": "Zurich placeholder",
+    "paragraph": "Prepare for an exciting football experience in Zurich as you watch FC Zurich at the iconic Stadion Letzigrund! Known for its talented squad and competitive spirit, FC Zurich is one of Switzerland's oldest and most storied clubs, consistently competing in the Swiss Super League and making notable appearances in European competitions. The atmosphere at Stadion Letzigrund on matchday is vibrant, with passionate supporters creating an exhilarating backdrop that enhances the excitement of every match. Beyond the thrilling football, Zurich offers a wealth of attractions—explore the picturesque Old Town, visit the impressive Swiss National Museum, or relax by the stunning Lake Zurich. Whether you’re a devoted Zurich supporter or simply eager to experience elite football in this beautiful city, this trip promises a fantastic blend of top-tier sport and the captivating charm of Switzerland’s largest metropolis!",
     "carousel": {
       "slideHead": "FC Zurich",
       "slide1Paragraph": "placeholder",
@@ -436,7 +435,7 @@
   "young-boys": {
     "pageTitle": "BSC Young Boys",
     "heading": "BSC Young Boys",
-    "paragraph": "Young Boys placeholder",
+    "paragraph": "Experience the thrill of football in Bern as you watch BSC Young Boys at the iconic Stadion Wankdorf! Renowned for their talented squad and competitive spirit, Young Boys is one of Switzerland’s top clubs, consistently contending in the Swiss Super League and making a significant impact in European competitions. The atmosphere at Stadion Wankdorf on matchday is electric, with passionate supporters creating a lively backdrop that enhances the excitement of every match. Beyond the exhilarating football, Bern offers a wealth of attractions—explore the historic UNESCO-listed Old Town, visit the famous Zytglogge clock tower, or relax in the beautiful Rosengarten with its stunning views of the city. Whether you’re a devoted Young Boys supporter or simply eager to immerse yourself in the rich football culture of Switzerland, this trip promises an incredible blend of top-tier sport and the captivating charm of one of the country’s most beautiful cities!",
     "carousel": {
       "slideHead": "BSC Young Boys",
       "slide1Paragraph": "placeholder",
@@ -449,7 +448,7 @@
   "legia-warsaw": {
     "pageTitle": "Legia Warsaw",
     "heading": "Legia Warsaw",
-    "paragraph": "Legia placeholder",
+    "paragraph": "Discover the excitement of football in Warsaw as you watch Legia Warsaw at the iconic Estadio Wojska Polskiego! Known for their passionate squad and rich history, Legia Warsaw is one of Poland's most successful clubs, consistently competing at the top of the Ekstraklasa and making notable appearances in European competitions. The atmosphere at Estadio Wojska Polskiego on matchday is electric, with devoted supporters creating a lively backdrop that enhances the thrill of every match. Beyond the exhilarating football, Warsaw offers a wealth of attractions—explore the historic Old Town, visit the impressive Warsaw Uprising Museum, or take a stroll through the beautiful Łazienki Park. Whether you’re a dedicated Legia supporter or simply eager to immerse yourself in the vibrant football culture of Poland, this trip promises a fantastic blend of top-tier sport and the captivating charm of one of Europe’s most dynamic cities!",
     "carousel": {
       "slideHead": "Legia Warsaw",
       "slide1Paragraph": "placeholder",
@@ -462,7 +461,7 @@
   "wisla-krakow": {
     "pageTitle": "Wisla Krakow",
     "heading": "Wisla Krakow",
-    "paragraph": "Wisla placeholder",
+    "paragraph": "Experience the passion of Polish football in Kraków as you watch Wisła Kraków at the historic Stadion Wisły! Once a dominant force in Polish football, Wisła is now working to reclaim its status after recent challenges that led to their relegation to the second division. However, they recently made headlines by winning the 2023/24 Polish Cup, showcasing their resilience and determination despite being in the lower tier. The club has a rich legacy, with a dedicated fanbase that remains fiercely loyal. The atmosphere at Stadion Wisły on matchday is charged with excitement, as supporters rally behind their team in hopes of a swift return to the top tier. Beyond the thrilling football, Kraków offers a wealth of attractions—explore the stunning Wawel Castle, visit the historic Main Market Square, or delve into the city’s vibrant cultural scene. Whether you’re a long-time Wisła supporter or simply eager to experience the passion of Polish football, this trip promises a unique blend of sport and the captivating charm of one of Poland’s most beautiful cities!",
     "carousel": {
       "slideHead": "Wisla Krakow",
       "slide1Paragraph": "placeholder",
@@ -475,7 +474,7 @@
   "sparta": {
     "pageTitle": "Sparta Prague",
     "heading": "Sparta Prague",
-    "paragraph": "Sparta placeholder",
+    "paragraph": "Immerse yourself in the excitement of Czech football in Prague as you watch AC Sparta Prague at the iconic Generali Arena! With a storied history and a talented squad, Sparta Prague is one of the most successful clubs in the Czech Republic, consistently competing at the top of the Fortuna Liga and making significant strides in their quest for Champions League qualification. The atmosphere at Generali Arena on matchday is electric, with passionate fans creating an unforgettable backdrop that enhances the thrill of every match. Beyond the exhilarating football, Prague offers a wealth of attractions—explore the historic Charles Bridge, visit the stunning Prague Castle, or enjoy a leisurely stroll through the picturesque Old Town Square. Whether you’re a devoted Sparta supporter or simply eager to experience elite football in this beautiful city, this trip promises an incredible blend of top-tier sport and the captivating charm of one of Europe’s most enchanting destinations!",
     "carousel": {
       "slideHead": "Sparta Prague",
       "slide1Paragraph": "placeholder",
@@ -488,7 +487,7 @@
   "slavia": {
     "pageTitle": "Slavia Prague",
     "heading": "Slavia Prague",
-    "paragraph": "Slavia placeholder",
+    "paragraph": "Catch the excitement of Czech football in Prague as you cheer for SK Slavia Prague at the iconic Eden Arena! With a proud history and a strong squad, Slavia is a powerhouse in the Czech Republic, consistently competing for the Fortuna Liga title and aiming for Champions League qualification. The atmosphere at Eden Arena is vibrant, with dedicated fans creating an unforgettable experience filled with passion and energy. Beyond the thrilling matches, take the time to explore Prague’s rich cultural heritage—stroll across the historic Charles Bridge, visit the magnificent Prague Castle, and soak in the stunning views of the city. Whether you're a long-time Slavia supporter or looking to immerse yourself in the atmosphere of Czech football, this trip offers a perfect blend of sporting action and the captivating allure of one of Europe’s most enchanting cities!",
     "carousel": {
       "slideHead": "Slavia Prague",
       "slide1Paragraph": "placeholder",
@@ -499,9 +498,9 @@
     }
   },
   "ferencvarosi": {
-    "pageTitle": "Ferenvarosi TC",
+    "pageTitle": "Ferencvarosi TC",
     "heading": "Ferencvárosi TC",
-    "paragraph": "Ferencvárosi placeholder",
+    "paragraph": "Get ready to experience the excitement of Hungarian football in Budapest as you watch Ferencvárosi TC at the iconic Groupama Arena! Known for their passionate fanbase and storied history, Ferencváros is one of Hungary's most successful clubs, consistently competing at the top of the OTP Bank Liga and making strides in European competitions. The atmosphere at Groupama Arena on matchday is electric, with fervent supporters creating a lively and unforgettable backdrop that amplifies the thrill of every match. Beyond the action on the pitch, Budapest offers a wealth of attractions—explore the historic Buda Castle, relax in the famous thermal baths, or take a scenic cruise along the Danube River. Whether you’re a devoted Ferencváros supporter or simply eager to immerse yourself in the vibrant football culture of Hungary, this trip promises an incredible blend of top-tier sport and the captivating charm of one of Europe’s most beautiful cities!",
     "carousel": {
       "slideHead": "Ferencvárosi TC",
       "slide1Paragraph": "placeholder",
@@ -571,8 +570,8 @@
         { "label": "Juventus", "link": "/italy/juventus" }
       ],
       "Scotland": [
-        { "label": "Rangers", "link": "/scotland/rangers" },
-        { "label": "Celtic", "link": "/scotland/celtic" }
+        { "label": "Celtic", "link": "/scotland/celtic" },
+        { "label": "Rangers", "link": "/scotland/rangers" }
       ],
       "Denmark": [
         { "label": "FC Copenhagen", "link": "/denmark/fc-copenhagen" },
