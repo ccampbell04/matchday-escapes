@@ -5,5 +5,9 @@ export const COUNTRIES = {
     ITALY: 'italy',
     SCOTLAND: 'scotland',
     DENMARK: 'denmark',
-    FRANCE: 'france'
+    FRANCE: 'france',
+    PORTUGAL: 'portugal',
+    SWITZERLAND: 'switzerland',
+    CZECH: 'Czech Republic',
+    HUNGARY: 'Hungary'
 };
