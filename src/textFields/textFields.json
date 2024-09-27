@@ -25,12 +25,57 @@
       "slide5Paragraph": "Amsterdam Canals"
     }
   },
-  "psv": {},
-  "feyenoord": {},
-  "bayern-munich": {},
+  "psv": {
+    "pageTitle": "PSV Eindhoven",
+    "heading": "PSV Eindhoven",
+    "paragraph": "PSV placeholder",
+    "carousel": {
+      "slideHead": "PSV Eindhoven",
+      "slide1Paragraph": "placeholder",
+      "slide2Paragraph": "placeholder",
+      "slide3Paragraph": "placeholder",
+      "slide4Paragraph": "placeholder",
+      "slide5Paragraph": "placeholder"
+    }
+  },
+  "feyenoord": {
+    "pageTitle": "Feyenoord",
+    "heading": "Feyerenoord",
+    "paragraph": "Feyenoord placeholder",
+    "carousel": {
+      "slideHead": "Feyenoord",
+      "slide1Paragraph": "placeholder",
+      "slide2Paragraph": "placeholder",
+      "slide3Paragraph": "placeholder",
+      "slide4Paragraph": "placeholder",
+      "slide5Paragraph": "placeholder"
+    }
+  },
+  "bayern-munich": {
+    "pageTitle": "Bayern Munich",
+    "heading": "Bayern Munich",
+    "paragraph": "Bayern placeholder",
+    "carousel": {
+      "slideHead": "Bayern Munich",
+      "slide1Paragraph": "placeholder",
+      "slide2Paragraph": "placeholder",
+      "slide3Paragraph": "placeholder",
+      "slide4Paragraph": "placeholder",
+      "slide5Paragraph": "placeholder"
+    }
+  },
   "borussia-dortmund": {
     "pageTitle": "Borussia Dortmund",
-    "heading": "Borussia Dortmund"
+    "heading": "Borussia Dortmund",
+    "paragraph": "Dortmund placeholder",
+    "carousel": {
+      "slideHead": "Bosussia Dortmund",
+      "slide1Paragraph": "placeholder",
+      "slide2Paragraph": "placeholder",
+      "slide3Paragraph": "placeholder",
+      "slide4Paragraph": "placeholder",
+      "slide5Paragraph": "placeholder"
+    }
   },
   "hertha-bsc": {
     "pageTitle": "Hertha BSC",
@@ -45,13 +90,97 @@
       "slide5Paragraph": "Reichstag, Berlin"
     }
   },
-  "hamburger-sv": {},
-  "monchengladbach": {},
-  "barcelona": {},
-  "atletico-madrid": {},
-  "valencia": {},
-  "sevilla": {},
-  "real-betis": {},
+  "hamburger-sv": {
+    "pageTitle": "Hamburger SV",
+    "heading": "Hamburger SV",
+    "paragraph": "Hamburg placeholder",
+    "carousel": {
+      "slideHead": "Hamburger SV",
+      "slide1Paragraph": "placeholder",
+      "slide2Paragraph": "placeholder",
+      "slide3Paragraph": "placeholder",
+      "slide4Paragraph": "placeholder",
+      "slide5Paragraph": "placeholder"
+    }
+  },
+  "monchengladbach": {
+    "pageTitle": "Borussia Monchengladbach",
+    "heading": "Borussia Monchengladbach",
+    "paragraph": "Gladbach placeholder",
+    "carousel": {
+      "slideHead": "Borussia Monchengladbach",
+      "slide1Paragraph": "placeholder",
+      "slide2Paragraph": "placeholder",
+      "slide3Paragraph": "placeholder",
+      "slide4Paragraph": "placeholder",
+      "slide5Paragraph": "placeholder"
+    }
+  },
+  "barcelona": {
+    "pageTitle": "Barcelona",
+    "heading": "Barcelona",
+    "paragraph": "Barca placeholder",
+    "carousel": {
+      "slideHead": "Barcelona",
+      "slide1Paragraph": "placeholder",
+      "slide2Paragraph": "placeholder",
+      "slide3Paragraph": "placeholder",
+      "slide4Paragraph": "placeholder",
+      "slide5Paragraph": "placeholder"
+    }
+  },
+  "atletico-madrid": {
+    "pageTitle": "Atletico Madrid",
+    "heading": "Atletico Madrid",
+    "paragraph": "Atleti placeholder",
+    "carousel": {
+      "slideHead": "Atletico Madrid",
+      "slide1Paragraph": "placeholder",
+      "slide2Paragraph": "placeholder",
+      "slide3Paragraph": "placeholder",
+      "slide4Paragraph": "placeholder",
+      "slide5Paragraph": "placeholder"
+    }
+  },
+  "valencia": {
+    "pageTitle": "Valencia",
+    "heading": "Valencia",
+    "paragraph": "Valencia placeholder",
+    "carousel": {
+      "slideHead": "Valencia",
+      "slide1Paragraph": "placeholder",
+      "slide2Paragraph": "placeholder",
+      "slide3Paragraph": "placeholder",
+      "slide4Paragraph": "placeholder",
+      "slide5Paragraph": "placeholder"
+    }
+  },
+  "sevilla": {
+    "pageTitle": "Sevilla",
+    "heading": "Sevilla",
+    "paragraph": "Sevilla placeholder",
+    "carousel": {
+      "slideHead": "Sevilla",
+      "slide1Paragraph": "placeholder",
+      "slide2Paragraph": "placeholder",
+      "slide3Paragraph": "placeholder",
+      "slide4Paragraph": "placeholder",
+      "slide5Paragraph": "placeholder"
+    }
+  },
+  "real-betis": {
+    "pageTitle": "Real Betis",
+    "heading": "Real Betis",
+    "paragraph": "Betis placeholder",
+    "carousel": {
+      "slideHead": "Real Betis",
+      "slide1Paragraph": "placeholder",
+      "slide2Paragraph": "placeholder",
+      "slide3Paragraph": "placeholder",
+      "slide4Paragraph": "placeholder",
+      "slide5Paragraph": "placeholder"
+    }
+  },
   "inter-milan": {
     "pageTitle": "Internazionale Milano",
     "heading": "Internazionale Milano",
@@ -65,12 +194,84 @@
       "slide5Paragraph": "Duomo di Milano"
     }
   },
-  "ac-milan": {},
-  "as-roma": {},
-  "napoli": {},
-  "juventus": {},
-  "rangers": {},
-  "celtic": {},
+  "ac-milan": {
+    "pageTitle": "AC Milan",
+    "heading": "AC Milan",
+    "paragraph": "AC placeholder",
+    "carousel": {
+      "slideHead": "AC Milan",
+      "slide1Paragraph": "placeholder",
+      "slide2Paragraph": "placeholder",
+      "slide3Paragraph": "placeholder",
+      "slide4Paragraph": "placeholder",
+      "slide5Paragraph": "placeholder"
+    }
+  },
+  "as-roma": {
+    "pageTitle": "AS Roma",
+    "heading": "AS Roma",
+    "paragraph": "Roma placeholder",
+    "carousel": {
+      "slideHead": "AS Roma",
+      "slide1Paragraph": "placeholder",
+      "slide2Paragraph": "placeholder",
+      "slide3Paragraph": "placeholder",
+      "slide4Paragraph": "placeholder",
+      "slide5Paragraph": "placeholder"
+    }
+  },
+  "napoli": {
+    "pageTitle": "SSC Napoli",
+    "heading": "SSC Napoli",
+    "paragraph": "Napoli placeholder",
+    "carousel": {
+      "slideHead": "SSC Napoli",
+      "slide1Paragraph": "placeholder",
+      "slide2Paragraph": "placeholder",
+      "slide3Paragraph": "placeholder",
+      "slide4Paragraph": "placeholder",
+      "slide5Paragraph": "placeholder"
+    }
+  },
+  "juventus": {
+    "pageTitle": "Juventus",
+    "heading": "Juventus",
+    "paragraph": "Juve placeholder",
+    "carousel": {
+      "slideHead": "Juventus",
+      "slide1Paragraph": "placeholder",
+      "slide2Paragraph": "placeholder",
+      "slide3Paragraph": "placeholder",
+      "slide4Paragraph": "placeholder",
+      "slide5Paragraph": "placeholder"
+    }
+  },
+  "celtic": {
+    "pageTitle": "Celtic",
+    "heading": "Celtic",
+    "paragraph": "Celtic placeholder",
+    "carousel": {
+      "slideHead": "Celtic",
+      "slide1Paragraph": "placeholder",
+      "slide2Paragraph": "placeholder",
+      "slide3Paragraph": "placeholder",
+      "slide4Paragraph": "placeholder",
+      "slide5Paragraph": "placeholder"
+    }
+  },
+  "rangers": {
+    "pageTitle": "Rangers",
+    "heading": "Rangers",
+    "paragraph": "Rangers placeholder",
+    "carousel": {
+      "slideHead": "Rangers",
+      "slide1Paragraph": "placeholder",
+      "slide2Paragraph": "placeholder",
+      "slide3Paragraph": "placeholder",
+      "slide4Paragraph": "placeholder",
+      "slide5Paragraph": "placeholder"
+    }
+  },
   "fc-copenhagen": {
     "pageTitle": "FC Copenhagen",
     "heading": "FC Copenhagen",
@@ -97,20 +298,188 @@
       "slide5Paragraph": "Rosenborg Slot, Copenhagen"
     }
   },
-  "psg": {},
-  "lyon": {},
-  "marseille": {},
-  "monaco": {},
-  "nice": {},
-  "benfica": {},
-  "sporting-lisbon": {},
-  "porto": {},
-  "basel": {},
-  "zurich": {},
-  "young-boys": {},
-  "sparta": {},
-  "slavia": {},
-  "ferencvarosi": {},
+  "psg": {
+    "pageTitle": "Paris Saint-Germain",
+    "heading": "Paris Saint-Germain",
+    "paragraph": "PSG placeholder",
+    "carousel": {
+      "slideHead": "Paris Saint-Germain",
+      "slide1Paragraph": "placeholder",
+      "slide2Paragraph": "placeholder",
+      "slide3Paragraph": "placeholder",
+      "slide4Paragraph": "placeholder",
+      "slide5Paragraph": "placeholder"
+    }
+  },
+  "lyon": {
+    "pageTitle": "Olympique Lyonnais",
+    "heading": "Olympique Lyonnais",
+    "paragraph": "Lyon placeholder",
+    "carousel": {
+      "slideHead": "Olympique Lyonnais",
+      "slide1Paragraph": "placeholder",
+      "slide2Paragraph": "placeholder",
+      "slide3Paragraph": "placeholder",
+      "slide4Paragraph": "placeholder",
+      "slide5Paragraph": "placeholder"
+    }
+  },
+  "marseille": {
+    "pageTitle": "Olympique de Marseille",
+    "heading": "Olympique de Marseille",
+    "paragraph": "Marseille placeholder",
+    "carousel": {
+      "slideHead": "Olympique de Marseille",
+      "slide1Paragraph": "placeholder",
+      "slide2Paragraph": "placeholder",
+      "slide3Paragraph": "placeholder",
+      "slide4Paragraph": "placeholder",
+      "slide5Paragraph": "placeholder"
+    }
+  },
+  "monaco": {
+    "pageTitle": "AS Monaco",
+    "heading": "AS Monaco",
+    "paragraph": "Monaco placeholder",
+    "carousel": {
+      "slideHead": "AS Monaco",
+      "slide1Paragraph": "placeholder",
+      "slide2Paragraph": "placeholder",
+      "slide3Paragraph": "placeholder",
+      "slide4Paragraph": "placeholder",
+      "slide5Paragraph": "placeholder"
+    }
+  },
+  "nice": {
+    "pageTitle": "OGC Nice",
+    "heading": "OGC Nice",
+    "paragraph": "Nice placeholder",
+    "carousel": {
+      "slideHead": "OGC Nice",
+      "slide1Paragraph": "placeholder",
+      "slide2Paragraph": "placeholder",
+      "slide3Paragraph": "placeholder",
+      "slide4Paragraph": "placeholder",
+      "slide5Paragraph": "placeholder"
+    }
+  },
+  "benfica": {
+    "pageTitle": "SL Benfica",
+    "heading": "SL Benfica",
+    "paragraph": "Benfica placeholder",
+    "carousel": {
+      "slideHead": "SL Benfica",
+      "slide1Paragraph": "placeholder",
+      "slide2Paragraph": "placeholder",
+      "slide3Paragraph": "placeholder",
+      "slide4Paragraph": "placeholder",
+      "slide5Paragraph": "placeholder"
+    }
+  },
+  "sporting-lisbon": {
+    "pageTitle": "Sporting CP",
+    "heading": "Sporting CP",
+    "paragraph": "Sporting placeholder",
+    "carousel": {
+      "slideHead": "Sporting CP",
+      "slide1Paragraph": "placeholder",
+      "slide2Paragraph": "placeholder",
+      "slide3Paragraph": "placeholder",
+      "slide4Paragraph": "placeholder",
+      "slide5Paragraph": "placeholder"
+    }
+  },
+  "porto": {
+    "pageTitle": "FC Porto",
+    "heading": "FC Porto",
+    "paragraph": "Porto placeholder",
+    "carousel": {
+      "slideHead": "FC Porto",
+      "slide1Paragraph": "placeholder",
+      "slide2Paragraph": "placeholder",
+      "slide3Paragraph": "placeholder",
+      "slide4Paragraph": "placeholder",
+      "slide5Paragraph": "placeholder"
+    }
+  },
+  "basel": {
+    "pageTitle": "FC Basel 1893",
+    "heading": "FC Basel 1893",
+    "paragraph": "Basel placeholder",
+    "carousel": {
+      "slideHead": "FC Basel 1893",
+      "slide1Paragraph": "placeholder",
+      "slide2Paragraph": "placeholder",
+      "slide3Paragraph": "placeholder",
+      "slide4Paragraph": "placeholder",
+      "slide5Paragraph": "placeholder"
+    }
+  },
+  "zurich": {
+    "pageTitle": "FC Zurich",
+    "heading": "FC Zurich",
+    "paragraph": "Zurich placeholder",
+    "carousel": {
+      "slideHead": "FC Zurich",
+      "slide1Paragraph": "placeholder",
+      "slide2Paragraph": "placeholder",
+      "slide3Paragraph": "placeholder",
+      "slide4Paragraph": "placeholder",
+      "slide5Paragraph": "placeholder"
+    }
+  },
+  "young-boys": {
+    "pageTitle": "BSC Young Boys",
+    "heading": "BSC Young Boys",
+    "paragraph": "Young Boys placeholder",
+    "carousel": {
+      "slideHead": "BSC Young Boys",
+      "slide1Paragraph": "placeholder",
+      "slide2Paragraph": "placeholder",
+      "slide3Paragraph": "placeholder",
+      "slide4Paragraph": "placeholder",
+      "slide5Paragraph": "placeholder"
+    }
+  },
+  "sparta": {
+    "pageTitle": "Sparta Prague",
+    "heading": "Sparta Prague",
+    "paragraph": "Sparta placeholder",
+    "carousel": {
+      "slideHead": "Sparta Prague",
+      "slide1Paragraph": "placeholder",
+      "slide2Paragraph": "placeholder",
+      "slide3Paragraph": "placeholder",
+      "slide4Paragraph": "placeholder",
+      "slide5Paragraph": "placeholder"
+    }
+  },
+  "slavia": {
+    "pageTitle": "Slavia Prague",
+    "heading": "Slavia Prague",
+    "paragraph": "Slavia placeholder",
+    "carousel": {
+      "slideHead": "Slavia Prague",
+      "slide1Paragraph": "placeholder",
+      "slide2Paragraph": "placeholder",
+      "slide3Paragraph": "placeholder",
+      "slide4Paragraph": "placeholder",
+      "slide5Paragraph": "placeholder"
+    }
+  },
+  "ferencvarosi": {
+    "pageTitle": "Ferenvarosi TC",
+    "heading": "Ferencvárosi TC",
+    "paragraph": "Ferencvárosi placeholder",
+    "carousel": {
+      "slideHead": "Ferencvárosi TC",
+      "slide1Paragraph": "placeholder",
+      "slide2Paragraph": "placeholder",
+      "slide3Paragraph": "placeholder",
+      "slide4Paragraph": "placeholder",
+      "slide5Paragraph": "placeholder"
+    }
+  },
 
   "generic-contact-page": {
     "contactUsHeading": "To book your next MatchdayEscape, contact us today!",
