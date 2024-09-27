@@ -8,7 +8,7 @@ export const CLUBS = {
     [COUNTRIES.SCOTLAND]: ['rangers', 'celtic'],
     [COUNTRIES.DENMARK]: ['fc-copenhagen', 'brondby'],
     [COUNTRIES.FRANCE]: ['psg', 'marseille', 'lyon', 'monaco', 'nice'],
-    [COUNTRIES.PORTGUAL]: ['benfica', 'sporting-lisbon', 'porto'],
+    [COUNTRIES.PORTUGAL]: ['benfica', 'sporting-lisbon', 'porto'],
     [COUNTRIES.SWITZERLAND]: ['basel', 'zurich', 'young-boys'],
     [COUNTRIES.CZECH]: ['sparta', 'slavia'],
     [COUNTRIES.HUNGARY]: ['ferencvarosi']
