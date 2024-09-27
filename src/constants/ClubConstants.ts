@@ -2,8 +2,8 @@ import { COUNTRIES } from "./CountryConstants";
 
 export const CLUBS = {
     [COUNTRIES.NETHERLANDS]: ['ajax', 'psv', 'feyenoord'],
-    [COUNTRIES.GERMANY]: ['borussia-dortmund', 'hertha-bsc', 'hamburger-sv', 'monchengladbach'],
-    [COUNTRIES.SPAIN]: ['barcelona', 'atletico-madrid'],
+    [COUNTRIES.GERMANY]: ['bayern-munich', 'borussia-dortmund', 'hertha-bsc', 'hamburger-sv', 'monchengladbach'],
+    [COUNTRIES.SPAIN]: ['barcelona', 'atletico-madrid', 'valencia', 'sevilla', 'real-betis'],
     [COUNTRIES.ITALY]: ['inter-milan', 'ac-milan', 'as-roma', 'napoli', 'juventus'],
     [COUNTRIES.SCOTLAND]: ['rangers', 'celtic'],
     [COUNTRIES.DENMARK]: ['fc-copenhagen', 'brondby'],

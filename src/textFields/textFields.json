@@ -10,7 +10,7 @@
   "switzerland": {},
   "czech": {},
   "hungary": {},
-  
+
   "ajax": {
     "pageTitle": "Ajax",
     "heading": "Ajax",
@@ -27,6 +27,7 @@
   },
   "psv": {},
   "feyenoord": {},
+  "bayern-munich": {},
   "borussia-dortmund": {
     "pageTitle": "Borussia Dortmund",
     "heading": "Borussia Dortmund"
@@ -48,6 +49,9 @@
   "monchengladbach": {},
   "barcelona": {},
   "atletico-madrid": {},
+  "valencia": {},
+  "sevilla": {},
+  "real-betis": {},
   "inter-milan": {
     "pageTitle": "Internazionale Milano",
     "heading": "Internazionale Milano",
@@ -141,6 +145,7 @@
         { "label": "Feyenoord", "link": "/netherlands/feyenoord" }
       ],
       "Germany": [
+        { "label": "Bayern Munich", "link": "/germany/bayern-munich" },
         { "label": "Borussia Dortmund", "link": "/germany/borussia-dortmund" },
         { "label": "Hertha BSC", "link": "/germany/hertha-bsc" },
         { "label": "Hamburger SV", "link": "/germany/hamburger-sv" },
@@ -148,7 +153,10 @@
       ],
       "Spain": [
         { "label": "Barcelona", "link": "/spain/barcelona" },
-        { "label": "Atletico Madrid", "link": "/spain/atletico-madrid" }
+        { "label": "Atletico Madrid", "link": "/spain/atletico-madrid" },
+        { "label": "Real Betis", "link": "/spain/real-betis" },
+        { "label": "Sevilla", "link": "/spain/sevilla" },
+        { "label": "Valencia", "link": "/spain/valencia" }
       ],
       "Italy": [
         { "label": "Inter Milan", "link": "/italy/inter-milan" },
@@ -186,9 +194,7 @@
         { "label": "Sparta Prague", "link": "/czech/sparta" },
         { "label": "Slavia Prague", "link": "/czech/slavia" }
       ],
-      "Hungary": [
-        { "label": "Ferencvariosi", "link": "/hungary/ferencvarosi" }
-      ]
+      "Hungary": [{ "label": "Ferencvariosi", "link": "/hungary/ferencvarosi" }]
     },
     "request": {
       "label": "Request a destination",
