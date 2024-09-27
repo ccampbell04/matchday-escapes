@@ -1,7 +1,7 @@
 "use client";
 
 import { CButton, CCol, CForm, CFormInput, CFormSelect } from "@coreui/react";
-import { FormEvent } from "react";
+import { FormEvent, useState } from "react";
 
 export function ContactUsForm({
   textFields,
@@ -33,6 +33,9 @@ export function ContactUsForm({
       console.error("Error submitting form:", error);
     }
   };
+
+  const [guests, setGuests] = useState("1");
+  const [nights, setNights] = useState("2");
 
   return (
     <div className="formContainer">
@@ -73,20 +76,62 @@ export function ContactUsForm({
             label={textFields.phone}
           />
         </CCol>
-        <CCol md={3}>
-          <CFormInput
-            name="length"
-            id="inputLength"
-            label={textFields.length}
-          />
-        </CCol>
-        <CCol md={4}>
-          <CFormInput
-            name="numberOfGuests"
-            id="inputNumberOfGuests"
-            label={textFields.numberOfGuests}
-          />
-        </CCol>
+        {nights !== "7+" ? (
+          <CCol md={3}>
+            <CFormSelect
+              name="length"
+              id="inputLength"
+              label={textFields.length}
+              onChange={(e) => setNights(e.target.value)}
+            >
+              {Array.from({ length: 6 }, (_, i) => (
+                <option key={i + 1} value={i + 1}>
+                  {i + 1}
+                </option>
+              ))}
+              <option>7+</option>
+            </CFormSelect>
+          </CCol>
+        ) : (
+          <CCol md={3}>
+            <CFormInput
+              name="length"
+              type="number"
+              id="inputLength"
+              label={textFields.length}
+              placeholder={"7+"}
+            />
+          </CCol>
+        )}
+
+        {guests !== "7+" ? (
+          <CCol md={4}>
+            <CFormSelect
+              name="numberOfGuests"
+              id="inputNumberOfGuests"
+              label={textFields.numberOfGuests}
+              onChange={(e) => setGuests(e.target.value)}
+            >
+              {Array.from({ length: 6 }, (_, i) => (
+                <option key={i + 1} value={i + 1}>
+                  {i + 1}
+                </option>
+              ))}
+              <option>7+</option>
+            </CFormSelect>
+          </CCol>
+        ) : (
+          <CCol md={4}>
+            <CFormInput
+              name="numberOfGuests"
+              type="number"
+              id="inputNumberOfGuests"
+              label={textFields.numberOfGuests}
+              placeholder={"7+"}
+            />
+          </CCol>
+        )}
+
         <CCol md={5}>
           <CFormSelect
             name="roomType"
