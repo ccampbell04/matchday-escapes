@@ -100,55 +100,65 @@ export function Carousel({
     <>
       <CCarousel controls indicators>
         <CCarouselItem>
-          <CImage
-            className="d-block w-100"
-            src={`/images/${clubName}/carousel1.JPEG`}
-            alt="slide 1"
-          />
+          <div className="carousel-item-container">
+            <CImage
+              className="d-block w-100"
+              src={`/images/${clubName}/carousel1.JPEG`}
+              alt="slide 1"
+            />
+          </div>
           <CCarouselCaption className="d-none d-md-block">
             <h5>{carouselTextProps.slideHead}</h5>
             <p>{carouselTextProps.slide1Paragraph}</p>
           </CCarouselCaption>
         </CCarouselItem>
         <CCarouselItem>
-          <CImage
-            className="d-block w-100"
-            src={`/images/${clubName}/carousel2.JPEG`}
-            alt="slide 2"
-          />
+          <div className="carousel-item-container">
+            <CImage
+              className="d-block w-100"
+              src={`/images/${clubName}/carousel2.JPEG`}
+              alt="slide 1"
+            />
+          </div>
           <CCarouselCaption className="d-none d-md-block">
             <h5>{carouselTextProps.slideHead}</h5>
             <p>{carouselTextProps.slide2Paragraph}</p>
           </CCarouselCaption>
         </CCarouselItem>
         <CCarouselItem>
-          <CImage
-            className="d-block w-100"
-            src={`/images/${clubName}/carousel3.JPEG`}
-            alt="slide 3"
-          />
+          <div className="carousel-item-container">
+            <CImage
+              className="d-block w-100"
+              src={`/images/${clubName}/carousel3.JPEG`}
+              alt="slide 1"
+            />
+          </div>
           <CCarouselCaption className="d-none d-md-block">
             <h5>{carouselTextProps.slideHead}</h5>
             <p>{carouselTextProps.slide3Paragraph}</p>
           </CCarouselCaption>
         </CCarouselItem>
         <CCarouselItem>
-          <CImage
-            className="d-block w-100"
-            src={`/images/${clubName}/carousel4.JPEG`}
-            alt="slide 3"
-          />
+          <div className="carousel-item-container">
+            <CImage
+              className="d-block w-100"
+              src={`/images/${clubName}/carousel4.JPEG`}
+              alt="slide 1"
+            />
+          </div>
           <CCarouselCaption className="d-none d-md-block">
             <h5>{carouselTextProps.slideHead}</h5>
             <p>{carouselTextProps.slide4Paragraph}</p>
           </CCarouselCaption>
         </CCarouselItem>
         <CCarouselItem>
-          <CImage
-            className="d-block w-100"
-            src={`/images/${clubName}/carousel5.JPEG`}
-            alt="slide 3"
-          />
+          <div className="carousel-item-container">
+            <CImage
+              className="d-block w-100"
+              src={`/images/${clubName}/carousel5.JPEG`}
+              alt="slide 1"
+            />
+          </div>
           <CCarouselCaption className="d-none d-md-block">
             <h5>{carouselTextProps.slideHead}</h5>
             <p>{carouselTextProps.slide5Paragraph}</p>
