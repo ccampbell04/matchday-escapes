@@ -1,5 +1,7 @@
+import { BreadCrumbs } from "@/components/BreadCrumbs";
 import { Carousel } from "@/components/Carousel";
 import { ContactUsForm } from "@/components/ContactUsForm";
+import { getBreadCrumbTextFields } from "@/utils/BreadCrumbUtils";
 import { isValidClub } from "@/utils/entryUtils";
 import { getPageTitle, getTextFieldsForClubPage } from "@/utils/textFieldUtils";
 import { CCard, CCardBody, CCol } from "@coreui/react";
@@ -38,8 +40,13 @@ export default function Page({
   }
 
   const textFields = getTextFieldsForClubPage(params.clubName);
+  const breadCrumbTextFields = getBreadCrumbTextFields(params);
   return (
     <>
+      <BreadCrumbs
+        breadCrumbTextFields={breadCrumbTextFields}
+        activePage={params.clubName}
+      />
       <center>
         <h1 className="display-1">{textFields.heading}</h1>
       </center>

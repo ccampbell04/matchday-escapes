@@ -1,3 +1,4 @@
+import { Accordion } from "@/components/Accordion";
 
 export default function Home() {
   return (
@@ -5,6 +6,8 @@ export default function Home() {
       <div>
         <h1>Home</h1>
         <p>Welcome to the home page</p>
+
+        <Accordion />
       </div>
     </>
   );

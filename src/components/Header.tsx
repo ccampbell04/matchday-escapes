@@ -20,7 +20,7 @@ export function Header({
 }): JSX.Element {
   return (
     <>
-      <CHeader>
+      <CHeader color="dark">
         <CContainer fluid>
           <CHeaderBrand href={textFields.heading.link}>
             {textFields.heading.label}

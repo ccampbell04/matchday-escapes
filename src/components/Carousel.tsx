@@ -1,10 +1,11 @@
 "use client";
 
+import { isCarouselPage } from "@/utils/entryUtils";
 import {
   CCarousel,
-  CCarouselItem,
-  CImage,
   CCarouselCaption,
+  CCarouselItem,
+  CImage
 } from "@coreui/react";
 
 export function Carousel({
@@ -14,6 +15,72 @@ export function Carousel({
   clubName: string;
   carouselTextProps: Record<string, any>;
 }) {
+  if (!isCarouselPage(clubName)) {
+    return (
+      <>
+        <center>
+          <h2 className="display-6">Previous Trips</h2>
+        </center>
+        <CCarousel controls indicators>
+          <CCarouselItem>
+            <CImage
+              className="d-block w-100"
+              src={`/images/ajax/carousel1.JPEG`}
+              alt="slide 1"
+            />
+            <CCarouselCaption className="d-none d-md-block">
+              <h5>Ajax Amsterdam</h5>
+              <p>Ajax vs AEK Athens</p>
+            </CCarouselCaption>
+          </CCarouselItem>
+          <CCarouselItem>
+            <CImage
+              className="d-block w-100"
+              src={`/images/hertha-bsc/carousel3.JPEG`}
+              alt="slide 2"
+            />
+            <CCarouselCaption className="d-none d-md-block">
+              <h5>Hertha BSC</h5>
+              <p>Hertha BSC vs Borussia Dortmund</p>
+            </CCarouselCaption>
+          </CCarouselItem>
+          <CCarouselItem>
+            <CImage
+              className="d-block w-100"
+              src={`/images/inter-milan/carousel1.JPEG`}
+              alt="slide 3"
+            />
+            <CCarouselCaption className="d-none d-md-block">
+              <h5>Internazionale Milano</h5>
+              <p>Inter vs Bologna</p>
+            </CCarouselCaption>
+          </CCarouselItem>
+          <CCarouselItem>
+            <CImage
+              className="d-block w-100"
+              src={`/images/ajax/carousel3.JPEG`}
+              alt="slide 3"
+            />
+            <CCarouselCaption className="d-none d-md-block">
+              <h5>Ajax Amsterdam</h5>
+              <p>Ajax VS Almere City FC</p>
+            </CCarouselCaption>
+          </CCarouselItem>
+          <CCarouselItem>
+            <CImage
+              className="d-block w-100"
+              src={`/images/fc-copenhagen/carousel1.JPEG`}
+              alt="slide 3"
+            />
+            <CCarouselCaption className="d-none d-md-block">
+              <h5>FC Copenhagen</h5>
+              <p>FC Copenhagen vs Kilmarnock FC</p>
+            </CCarouselCaption>
+          </CCarouselItem>
+        </CCarousel>
+      </>
+    );
+  }
   return (
     <>
       <CCarousel controls indicators>

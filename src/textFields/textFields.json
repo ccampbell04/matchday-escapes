@@ -497,12 +497,12 @@
       "slide5Paragraph": "placeholder"
     }
   },
-  "ferencvarosi": {
-    "pageTitle": "Ferencvarosi TC",
-    "heading": "Ferencvárosi TC",
+  "ferencvaros": {
+    "pageTitle": "Ferencváros TC",
+    "heading": "Ferencváros TC",
     "paragraph": "Get ready to experience the excitement of Hungarian football in Budapest as you watch Ferencvárosi TC at the iconic Groupama Arena! Known for their passionate fanbase and storied history, Ferencváros is one of Hungary's most successful clubs, consistently competing at the top of the OTP Bank Liga and making strides in European competitions. The atmosphere at Groupama Arena on matchday is electric, with fervent supporters creating a lively and unforgettable backdrop that amplifies the thrill of every match. Beyond the action on the pitch, Budapest offers a wealth of attractions—explore the historic Buda Castle, relax in the famous thermal baths, or take a scenic cruise along the Danube River. Whether you’re a devoted Ferencváros supporter or simply eager to immerse yourself in the vibrant football culture of Hungary, this trip promises an incredible blend of top-tier sport and the captivating charm of one of Europe’s most beautiful cities!",
     "carousel": {
-      "slideHead": "Ferencvárosi TC",
+      "slideHead": "Ferencváros TC",
       "slide1Paragraph": "placeholder",
       "slide2Paragraph": "placeholder",
       "slide3Paragraph": "placeholder",
@@ -602,7 +602,7 @@
         { "label": "Sparta Prague", "link": "/czech/sparta" },
         { "label": "Slavia Prague", "link": "/czech/slavia" }
       ],
-      "Hungary": [{ "label": "Ferencvariosi", "link": "/hungary/ferencvarosi" }]
+      "Hungary": [{ "label": "Ferencváros", "link": "/hungary/ferencvaros" }]
     },
     "request": {
       "label": "Request a destination",
