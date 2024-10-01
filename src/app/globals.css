@@ -40,3 +40,19 @@ h2 {
 .breadCrumbs {
   padding: 2%;
 }
+
+.carousel-item-container {
+  width: 100%; /* Keeps it responsive */
+  aspect-ratio: 2048 / 750; /* Set the aspect ratio based on your image dimensions */
+  background-color: #0f0f0f; /* Optional: a placeholder color while the image loads */
+  position: relative; /* Ensure the image is positioned correctly */
+}
+
+.carousel-item-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the container without stretching */
+  position: absolute; /* Position it inside the container */
+  top: 0;
+  left: 0;
+}

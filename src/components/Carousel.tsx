@@ -5,7 +5,7 @@ import {
   CCarousel,
   CCarouselCaption,
   CCarouselItem,
-  CImage
+  CImage,
 } from "@coreui/react";
 
 export function Carousel({
@@ -22,17 +22,20 @@ export function Carousel({
           <h2 className="display-6">Previous Trips</h2>
         </center>
         <CCarousel controls indicators>
-          <CCarouselItem>
-            <CImage
-              className="d-block w-100"
-              src={`/images/ajax/carousel1.JPEG`}
-              alt="slide 1"
-            />
-            <CCarouselCaption className="d-none d-md-block">
-              <h5>Ajax Amsterdam</h5>
-              <p>Ajax vs AEK Athens</p>
-            </CCarouselCaption>
-          </CCarouselItem>
+          <div className="carousel-item-container">
+            <CCarouselItem>
+              <CImage
+                className="d-block w-100"
+                src={`/images/ajax/carousel1.JPEG`}
+                alt="slide 1"
+              />
+              <CCarouselCaption className="d-none d-md-block">
+                <h5>Ajax Amsterdam</h5>
+                <p>Ajax vs AEK Athens</p>
+              </CCarouselCaption>
+            </CCarouselItem>
+          </div>
+
           <CCarouselItem>
             <CImage
               className="d-block w-100"
