@@ -17,12 +17,12 @@ export function Carousel({
 }) {
   if (!isCarouselPage(clubName)) {
     return (
-      <>
+      <div className="carousel-item-container">
         <center>
           <h2 className="display-6">Previous Trips</h2>
         </center>
+        
         <CCarousel controls indicators>
-          <div className="carousel-item-container">
             <CCarouselItem>
               <CImage
                 className="d-block w-100"
@@ -34,8 +34,6 @@ export function Carousel({
                 <p>Ajax vs AEK Athens</p>
               </CCarouselCaption>
             </CCarouselItem>
-          </div>
-
           <CCarouselItem>
             <CImage
               className="d-block w-100"
@@ -81,7 +79,7 @@ export function Carousel({
             </CCarouselCaption>
           </CCarouselItem>
         </CCarousel>
-      </>
+      </div>
     );
   }
   return (
