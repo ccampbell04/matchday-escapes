@@ -518,6 +518,7 @@
     "name": "Name:",
     "club": "Club:",
     "length": "Length of stay:",
+    "sevenPlus": "7+",
     "localAirport": {
       "label": "Local airport(s):",
       "placeholder": "Enter a list of convenient departure airports"
@@ -531,6 +532,7 @@
     },
     "numberOfGuests": "Number of guests:",
     "submit": "Submit",
+    "submitting": "Submitting...",
     "toast": {
       "heading": "MatchdayEscapes",
       "time": "Now",

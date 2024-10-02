@@ -1,8 +1,16 @@
 "use client";
 
-import { CCol, CForm, CFormInput, CFormSelect } from "@coreui/react";
-import { FormEvent, useReducer } from "react";
-import { SubmitWithToast } from "./SubmitWithToast";
+import {
+  CButton,
+  CCol,
+  CForm,
+  CFormInput,
+  CFormSelect,
+  CSpinner,
+} from "@coreui/react";
+import { FormEvent, useReducer, useState } from "react";
+import { SubmitWithToast } from "@/components/SubmitWithToast";
+import { DynamicNumberInput } from "./DynamicNumberInput";
 
 type State = {
   name: string;
@@ -43,8 +51,11 @@ export function ContactUsForm({
 }: {
   textFields: Record<string, any>;
 }): JSX.Element {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
   const onSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+    setIsSubmitting(true);
 
     const formData = new FormData(event.currentTarget);
     const data = Object.fromEntries(formData.entries());
@@ -68,6 +79,8 @@ export function ContactUsForm({
       console.log("Form submitted successfully:", result);
     } catch (error) {
       console.error("Error submitting form:", error);
+    } finally {
+      setIsSubmitting(false);
     }
   };
 
@@ -129,73 +142,38 @@ export function ContactUsForm({
             onChange={(e) => dispatch({ type: "phone", value: e.target.value })}
           />
         </CCol>
-        {state.length !== "7+" ? (
-          <CCol md={3}>
-            <CFormSelect
-              name="length"
-              id="inputLength"
-              label={textFields.length}
-              onChange={(e) =>
-                dispatch({ type: "length", value: e.target.value })
-              }
-            >
-              {Array.from({ length: 6 }, (_, i) => (
-                <option key={i + 1} value={i + 1}>
-                  {i + 1}
-                </option>
-              ))}
-              <option>7+</option>
-            </CFormSelect>
-          </CCol>
-        ) : (
-          <CCol md={3}>
-            <CFormInput
-              name="length"
-              type="number"
-              id="inputLength"
-              label={textFields.length}
-              value={state.lengthGreaterThan7}
-              min={0}
-              onChange={(e) =>
-                dispatch({ type: "lengthGreaterThan7", value: e.target.value })
-              }
-            />
-          </CCol>
-        )}
 
-        {state.numberOfGuests !== "7+" ? (
-          <CCol md={4}>
-            <CFormSelect
-              name="numberOfGuests"
-              id="inputNumberOfGuests"
-              label={textFields.numberOfGuests}
-              onChange={(e) =>
-                dispatch({ type: "numberOfGuests", value: e.target.value })
-              }
-            >
-              {Array.from({ length: 6 }, (_, i) => (
-                <option key={i + 1} value={i + 1}>
-                  {i + 1}
-                </option>
-              ))}
-              <option>7+</option>
-            </CFormSelect>
-          </CCol>
-        ) : (
-          <CCol md={4}>
-            <CFormInput
-              name="numberOfGuests"
-              type="number"
-              id="inputNumberOfGuests"
-              label={textFields.numberOfGuests}
-              value={state.guestsGreaterThan7}
-              min={0}
-              onChange={(e) =>
-                dispatch({ type: "guestsGreaterThan7", value: e.target.value })
-              }
-            />
-          </CCol>
-        )}
+        <DynamicNumberInput
+          stateComparison={state.length}
+          inputState={state.lengthGreaterThan7}
+          md={3}
+          name="length"
+          id="inputLength"
+          selectOnChange={(e) =>
+            dispatch({ type: "length", value: e.target.value })
+          }
+          inputOnChange={(e) =>
+            dispatch({ type: "lengthGreaterThan7", value: e.target.value })
+          }
+          labelText={textFields.length}
+          sevenPlusText={textFields.sevenPlus}
+        />
+
+        <DynamicNumberInput
+          stateComparison={state.numberOfGuests}
+          inputState={state.guestsGreaterThan7}
+          md={4}
+          name="numberOfGuests"
+          id="inputNumberOfGuests"
+          selectOnChange={(e) =>
+            dispatch({ type: "numberOfGuests", value: e.target.value })
+          }
+          inputOnChange={(e) =>
+            dispatch({ type: "guestsGreaterThan7", value: e.target.value })
+          }
+          labelText={textFields.numberOfGuests}
+          sevenPlusText={textFields.sevenPlus}
+        />
 
         <CCol md={5}>
           <CFormSelect
@@ -226,7 +204,14 @@ export function ContactUsForm({
         </CCol>
         <CCol xs={12}>
           <center>
-            <SubmitWithToast textFields={textFields} />
+            {!isSubmitting ? (
+              <SubmitWithToast textFields={textFields} />
+            ) : (
+              <CButton color="info" disabled>
+                <CSpinner as="span" size="sm" aria-hidden="true" />
+                {textFields.submitting}
+              </CButton>
+            )}
           </center>
         </CCol>
       </CForm>
