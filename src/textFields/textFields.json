@@ -1038,69 +1038,108 @@
     "home": { "label": "Home", "link": "/" },
     "viewTrips": "View Trips",
     "dropDown": {
-      "Netherlands": [
-        { "label": "Ajax", "link": "/netherlands/ajax" },
-        { "label": "Feyenoord", "link": "/netherlands/feyenoord" },
-        { "label": "PSV", "link": "/netherlands/psv" }
-      ],
-      "Germany": [
-        { "label": "Bayern Munich", "link": "/germany/bayern-munich" },
-        { "label": "Borussia Dortmund", "link": "/germany/borussia-dortmund" },
-        {
-          "label": "Borussia Monchengladbach",
-          "link": "/germany/monchengladbach"
-        },
-        { "label": "Hamburger SV", "link": "/germany/hamburger-sv" },
-        { "label": "Hertha BSC", "link": "/germany/hertha-bsc" }
-      ],
-      "Spain": [
-        { "label": "Atletico Madrid", "link": "/spain/atletico-madrid" },
-        { "label": "Barcelona", "link": "/spain/barcelona" },
-        { "label": "Real Betis", "link": "/spain/real-betis" },
-        { "label": "Sevilla", "link": "/spain/sevilla" },
-        { "label": "Valencia", "link": "/spain/valencia" }
-      ],
-      "Italy": [
-        { "label": "AC Milan", "link": "/italy/ac-milan" },
-        { "label": "AS Roma", "link": "/italy/as-roma" },
-        { "label": "Inter Milan", "link": "/italy/inter-milan" },
-        { "label": "Juventus", "link": "/italy/juventus" },
-        { "label": "Napoli", "link": "/italy/napoli" }
-      ],
-      "Scotland": [
-        { "label": "Celtic", "link": "/scotland/celtic" },
-        { "label": "Rangers", "link": "/scotland/rangers" }
-      ],
-      "Denmark": [
-        { "label": "Brondby IF", "link": "/denmark/brondby-if" },
-        { "label": "FC Copenhagen", "link": "/denmark/fc-copenhagen" }
-      ],
-      "France": [
-        { "label": "Lyon", "link": "/france/lyon" },
-        { "label": "Marseille", "link": "/france/marseille" },
-        { "label": "Monaco", "link": "/france/monaco" },
-        { "label": "Nice", "link": "/france/nice" },
-        { "label": "Paris Saint-Germain", "link": "/france/psg" }
-      ],
-      "Portugal": [
-        { "label": "FC Porto", "link": "/portugal/fc-porto" },
-        { "label": "SL Benfica", "link": "/portugal/sl-benfica" },
-        { "label": "Sporting CP", "link": "/portugal/sporting-cp" }
-      ],
-      "Switzerland": [
-        { "label": "BSC Young Boys", "link": "/switzerland/young-boys" },
-        { "label": "FC Basel 1893", "link": "/switzerland/basel" },
-        { "label": "FC Zurich", "link": "/switzerland/zurich" }
-      ],
-      "Poland": [
-        { "label": "Legia Warsaw", "link": "/poland/legia-warsaw" },
-        { "label": "Wisla Krakow", "link": "/poland/wisla-krakow" }
-      ],
-      "Czech Republic": [
-        { "label": "Sparta Prague", "link": "/czech-republic/sparta" },
-        { "label": "Slavia Prague", "link": "/czech-republic/slavia" }
-      ],
-      "Hungary": [{ "label": "Ferencváros", "link": "/hungary/ferencvaros" }]
+      "Germany": {
+        "link": "/germany",
+        "content": [
+          { "label": "Bayern Munich", "link": "/germany/bayern-munich" },
+          {
+            "label": "Borussia Dortmund",
+            "link": "/germany/borussia-dortmund"
+          },
+          {
+            "label": "Borussia Monchengladbach",
+            "link": "/germany/monchengladbach"
+          },
+          { "label": "Hamburger SV", "link": "/germany/hamburger-sv" },
+          { "label": "Hertha BSC", "link": "/germany/hertha-bsc" }
+        ]
+      },
+      "Italy": {
+        "link": "/italy",
+        "content": [
+          { "label": "AC Milan", "link": "/italy/ac-milan" },
+          { "label": "AS Roma", "link": "/italy/as-roma" },
+          { "label": "Inter Milan", "link": "/italy/inter-milan" },
+          { "label": "Juventus", "link": "/italy/juventus" },
+          { "label": "Napoli", "link": "/italy/napoli" }
+        ]
+      },
+      "Spain": {
+        "link": "/spain",
+        "content": [
+          { "label": "Atletico Madrid", "link": "/spain/atletico-madrid" },
+          { "label": "Barcelona", "link": "/spain/barcelona" },
+          { "label": "Real Betis", "link": "/spain/real-betis" },
+          { "label": "Sevilla", "link": "/spain/sevilla" },
+          { "label": "Valencia", "link": "/spain/valencia" }
+        ]
+      },
+      "Netherlands": {
+        "link": "/netherlands",
+        "content": [
+          { "label": "Ajax", "link": "/netherlands/ajax" },
+          { "label": "Feyenoord", "link": "/netherlands/feyenoord" },
+          { "label": "PSV", "link": "/netherlands/psv" }
+        ]
+      },
+      "France": {
+        "link": "/france",
+        "content": [
+          { "label": "Lyon", "link": "/france/lyon" },
+          { "label": "Marseille", "link": "/france/marseille" },
+          { "label": "Monaco", "link": "/france/monaco" },
+          { "label": "Nice", "link": "/france/nice" },
+          { "label": "Paris Saint-Germain", "link": "/france/psg" }
+        ]
+      },
+      "Portugal": {
+        "link": "/portugal",
+        "content": [
+          { "label": "FC Porto", "link": "/portugal/fc-porto" },
+          { "label": "SL Benfica", "link": "/portugal/sl-benfica" },
+          { "label": "Sporting CP", "link": "/portugal/sporting-cp" }
+        ]
+      },
+      "Scotland": {
+        "link": "/scotland",
+        "content": [
+          { "label": "Celtic", "link": "/scotland/celtic" },
+          { "label": "Rangers", "link": "/scotland/rangers" }
+        ]
+      },
+      "Denmark": {
+        "link": "/denmark",
+        "content": [
+          { "label": "Brondby IF", "link": "/denmark/brondby-if" },
+          { "label": "FC Copenhagen", "link": "/denmark/fc-copenhagen" }
+        ]
+      },
+      "Switzerland": {
+        "link": "/switzerland",
+        "content": [
+          { "label": "BSC Young Boys", "link": "/switzerland/young-boys" },
+          { "label": "FC Basel 1893", "link": "/switzerland/basel" },
+          { "label": "FC Zurich", "link": "/switzerland/zurich" }
+        ]
+      },
+      "Czech Republic": {
+        "link": "/czech-republic",
+        "content": [
+          { "label": "Sparta Prague", "link": "/czech-republic/sparta" },
+          { "label": "Slavia Prague", "link": "/czech-republic/slavia" }
+        ]
+      },
+      "Poland": {
+        "link": "/poland",
+        "content": [
+          { "label": "Legia Warsaw", "link": "/poland/legia-warsaw" },
+          { "label": "Wisla Krakow", "link": "/poland/wisla-krakow" }
+        ]
+      },
+      "Hungary": {
+        "link": "/hungary",
+        "content": [{ "label": "Ferencváros", "link": "/hungary/ferencvaros" }]
+      }
     },
     "request": {
       "label": "Request a destination",

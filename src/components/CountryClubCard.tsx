@@ -13,7 +13,7 @@ export function CountryClubCard({
 }) {
   return (
     <CCard>
-      <CCardHeader as="h5">{cardTextFields.title}</CCardHeader>
+      <CCardHeader as="h3">{cardTextFields.title}</CCardHeader>
       <CCardBody>
         <p>{cardTextFields.description}</p>
         <ul>

@@ -50,6 +50,13 @@ h2 {
   padding: 2% 2% 2% 0;
 }
 
+h3 {
+  font-size: 1.25em; 
+  font-weight: bold;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
 .breadCrumbs {
   padding: 2%;
 }

@@ -1,9 +1,9 @@
 import {
   CDropdownDivider,
-  CDropdownItem,
-  CDropdownItemPlain,
+  CDropdownItem
 } from "@coreui/react";
 import React from "react";
+
 
 export function DropDownContent({
   dropDownTextFields,
@@ -16,9 +16,11 @@ export function DropDownContent({
     <ul>
       {Object.keys(dropDownTextFields).map((country) => (
         <React.Fragment key={country}>
-          <CDropdownItemPlain >{country}</CDropdownItemPlain>
+          <CDropdownItem href={dropDownTextFields[country].link}>
+            {country}
+          </CDropdownItem>
           <CDropdownDivider />
-          {dropDownTextFields[country].map(
+          {dropDownTextFields[country].content.map(
             (team: { label: string; link: string }) => (
               <CDropdownItem key={team.link} href={team.link}>
                 {team.label}
