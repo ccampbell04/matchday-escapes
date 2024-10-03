@@ -1,4 +1,11 @@
 import { Accordion } from "@/components/Accordion";
+import { Metadata } from "next";
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: "MatchdayEscapes",
+  };
+}
 
 export default function Home() {
   return (
