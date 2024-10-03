@@ -15,7 +15,7 @@ export function BreadCrumbs({
       {breadCrumbTextFields &&
         breadCrumbTextFields.map((page, index) => (
           <CBreadcrumbItem
-            active={page.link === activePage}
+            active={page.link.includes(activePage)}
             key={index}
             href={`/${page.link}`}
           >

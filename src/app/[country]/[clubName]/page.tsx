@@ -20,9 +20,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
 
-  const pageTitle = getPageTitle(clubName);
   return {
-    title: pageTitle,
+    title: getPageTitle(clubName),
   };
 }
 

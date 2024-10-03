@@ -29,6 +29,19 @@ body {
   padding: 5%;
 }
 
+.countryCardPadding {
+  padding-bottom: 2%;
+}
+
+.countryCardContainer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.countryCardButtonPadding {
+  padding-top: 2%;
+}
+
 h1 {
   padding: 2%;
 }

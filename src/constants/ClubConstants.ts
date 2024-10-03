@@ -24,13 +24,18 @@ export const CLUBS = {
     "juventus",
   ],
   [COUNTRIES.SCOTLAND]: ["celtic", "rangers"],
-  [COUNTRIES.DENMARK]: ["fc-copenhagen", "brondby"],
+  [COUNTRIES.DENMARK]: ["fc-copenhagen", "brondby-if"],
   [COUNTRIES.FRANCE]: ["psg", "marseille", "lyon", "monaco", "nice"],
-  [COUNTRIES.PORTUGAL]: ["benfica", "sporting-lisbon", "porto"],
+  [COUNTRIES.PORTUGAL]: ["sl-benfica", "sporting-cp", "fc-porto"],
   [COUNTRIES.SWITZERLAND]: ["basel", "zurich", "young-boys"],
   [COUNTRIES.CZECH]: ["sparta", "slavia"],
   [COUNTRIES.HUNGARY]: ["ferencvaros"],
   [COUNTRIES.POLAND]: ["legia-warsaw", "wisla-krakow"],
 };
 
-export const CAROUSEL_CLUBS = ["ajax", "inter-milan", "hertha-bsc", "fc-copenhagen"];
+export const CAROUSEL_CLUBS = [
+  "ajax",
+  "inter-milan",
+  "hertha-bsc",
+  "fc-copenhagen",
+];

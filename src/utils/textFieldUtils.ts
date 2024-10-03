@@ -19,3 +19,10 @@ export function getTextFieldsForClubPage(pageId:string): Record<string, any> {
 
    return { ...clubTextFields, ...contactUsTextFields };
 }
+
+export function getTextFieldsForCountryPage(pageId: string): Record<string, any> {
+   const countryTextFields = getTextFields(pageId);
+   const cardLabelTextFields = getTextFields("country-card-labels");
+
+   return { ...countryTextFields, ...cardLabelTextFields };
+}

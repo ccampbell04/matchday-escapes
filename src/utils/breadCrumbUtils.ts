@@ -1,18 +1,24 @@
 export function getBreadCrumbTextFields(
   params: Record<string, any> = {}
 ): Array<{ link: string; label: string }> {
-  let previousLink = ""; // Variable to store the previous link value
+  let previousLink = "";
 
   const breadCrumbTextFieldsArray = Object.values(params).map((param) => {
-    // Update the link by concatenating previousLink with the current param
     const link = previousLink ? `${previousLink}/${param}` : param;
-
-    // Update previousLink for the next iteration
     previousLink = link;
+
+    const label = param
+      .split("-")
+      .map((word: string) => {
+        return word.length <= 3
+          ? word.toUpperCase()
+          : word.charAt(0).toUpperCase() + word.slice(1);
+      })
+      .join(" ");
 
     return {
       link: link,
-      label: param.charAt(0).toUpperCase() + param.slice(1),
+      label: label,
     };
   });
 
