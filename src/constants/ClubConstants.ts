@@ -38,4 +38,12 @@ export const CAROUSEL_CLUBS = [
   "inter-milan",
   "hertha-bsc",
   "fc-copenhagen",
+  "feyenoord",
+  "psv",
+  "bayern-munich",
+  "borussia-dortmund",
+  "monchengladbach",
+  "ac-milan",
+  "rangers",
+  "celtic",
 ];

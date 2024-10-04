@@ -59,13 +59,13 @@
         "location": "Dortmund, Germany",
         "league": "Bundesliga",
         "founded": "1909",
-        "stadium": "Signal Iduna Park",
+        "stadium": "Westfalenstadion",
         "capacity": "81,365",
         "built": "1974",
         "link": "/borussia-dortmund"
       },
       {
-        "title": "Borussia Monchengladbach",
+        "title": "Borussia Mönchengladbach",
         "description": "monchengladbach",
         "location": "Mönchengladbach, Germany",
         "league": "Bundesliga",
@@ -499,9 +499,9 @@
     "additionalInfo": "Please note that Ajax conduct ticket sales in two blocks each season, if the match you have requested has already been on sale on the Ajax website, it may be difficult to obtain tickets. We will do our best to secure tickets for you, but please be aware that availability is limited. In the case tickets are unavailable, we can place you on our waiting list for the next ticket sale window.",
     "carousel": {
       "slideHead": "Ajax Amsterdam",
-      "slide1Paragraph": "Ajax vs AEK Athens",
-      "slide2Paragraph": "Ajax vs Heracles Almelo",
-      "slide3Paragraph": "Ajax vs Almere City FC",
+      "slide1Paragraph": "Ajax vs AEK Athens, Uefa Europa League",
+      "slide2Paragraph": "Ajax vs Heracles Almelo, Eredivisie",
+      "slide3Paragraph": "Ajax vs Almere City FC, Eredivisie",
       "slide4Paragraph": "Damrak, Amsterdam",
       "slide5Paragraph": "Amsterdam Canals"
     }
@@ -512,7 +512,7 @@
     "paragraph": "Embark on a thrilling football trip to the Netherlands as you experience PSV Eindhoven at the iconic Philips Stadion! Known for its rich football history and success both domestically and in Europe, PSV is one of the Netherlands' most decorated clubs, with a legacy that includes Eredivisie titles and a famous European Cup triumph. On matchday, the Philips Stadion comes alive with passionate fans, creating an electrifying atmosphere that every football lover should experience. Beyond the football, Eindhoven offers a blend of modern innovation and Dutch charm—explore the city's creative Strijp-S district, visit the Van Abbemuseum, or relax in one of the many cozy cafés around the city center. Whether you're a devoted PSV supporter or simply eager to experience top-tier Dutch football, this trip promises an exciting journey into the heart of the Netherlands!",
     "carousel": {
       "slideHead": "PSV Eindhoven",
-      "slide1Paragraph": "placeholder",
+      "slide1Paragraph": "Phillips Stadion, Eindhoven",
       "slide2Paragraph": "placeholder",
       "slide3Paragraph": "placeholder",
       "slide4Paragraph": "placeholder",
@@ -521,15 +521,15 @@
   },
   "feyenoord": {
     "pageTitle": "Feyenoord",
-    "heading": "Feyerenoord",
+    "heading": "Feyenoord",
     "paragraph": "Get ready for an unforgettable football experience in Rotterdam as you watch Feyenoord play at the legendary De Kuip Stadium! As one of the Netherlands' most historic clubs, Feyenoord boasts a proud tradition of domestic and European success, with passionate fans that make matchday at De Kuip an electrifying event. Known for their fierce rivalries and unwavering supporters, Feyenoord creates one of the most intense football atmospheres in the country. Outside of the game, Rotterdam offers a wealth of attractions—explore the cutting-edge architecture of the Markthal, take in stunning views from the Euromast Tower, or enjoy a riverside stroll along the iconic Erasmus Bridge. Whether you're a lifelong Feyenoord fan or simply looking for a football experience in one of the Netherlands’ most dynamic cities, this trip promises a perfect blend of sporting excitement and urban exploration!",
     "carousel": {
       "slideHead": "Feyenoord",
-      "slide1Paragraph": "placeholder",
-      "slide2Paragraph": "placeholder",
-      "slide3Paragraph": "placeholder",
-      "slide4Paragraph": "placeholder",
-      "slide5Paragraph": "placeholder"
+      "slide1Paragraph": "Feyenoord vs Celtic, Uefa Champions League",
+      "slide2Paragraph": "Feyenoord vs Willem II, Eredivisie",
+      "slide3Paragraph": "Witte Huis & Kijk-Kubus, Rotterdam",
+      "slide4Paragraph": "Feyenoord vs FC Groningen, KNVB Beker",
+      "slide5Paragraph": "Feyenoord vs Bayer Leverkusen, Uefa Champions League"
     }
   },
   "bayern-munich": {
@@ -539,22 +539,22 @@
     "additionalInfo": "Please note large groups may encounter challenges due to membership constraints, so it’s advisable to check availability and make arrangements in advance to ensure a smooth experience.",
     "carousel": {
       "slideHead": "Bayern Munich",
-      "slide1Paragraph": "placeholder",
+      "slide1Paragraph": "Allianz Arena, Munich",
       "slide2Paragraph": "placeholder",
-      "slide3Paragraph": "placeholder",
-      "slide4Paragraph": "placeholder",
-      "slide5Paragraph": "placeholder"
+      "slide3Paragraph": "Olympiapark, Munich",
+      "slide4Paragraph": "Neues Rathaus, Munich",
+      "slide5Paragraph": "Allianz Arena, Munich"
     }
   },
   "borussia-dortmund": {
     "pageTitle": "Borussia Dortmund",
     "heading": "Borussia Dortmund",
-    "paragraph": "Prepare for an electrifying football experience in Dortmund as you watch Borussia Dortmund at the legendary Signal Iduna Park, home to one of the most passionate fanbases in world football! Known for its famous 'Yellow Wall', a sea of 25,000 standing fans, the atmosphere inside the stadium is nothing short of breathtaking, making it a must-visit for any football fan. Borussia Dortmund, with its rich history of Bundesliga titles and European triumphs, plays an exhilarating style of football that keeps fans on the edge of their seats. Beyond the match, Dortmund offers a mix of culture and history—explore the fascinating Zollverein Coal Mine, visit the Westfalenpark, or take a stroll through the vibrant city center. Whether you're a die-hard BVB supporter or simply eager to experience the magic of football in one of Germany's most storied stadiums, this trip is an unforgettable adventure into the heart of German football!",
+    "paragraph": "Prepare for an electrifying football experience in Dortmund as you watch Borussia Dortmund at the legendary Westfalenstadion, home to one of the most passionate fanbases in world football! Known for its famous 'Yellow Wall', a sea of 25,000 standing fans, the atmosphere inside the stadium is nothing short of breathtaking, making it a must-visit for any football fan. Borussia Dortmund, with its rich history of Bundesliga titles and European triumphs, plays an exhilarating style of football that keeps fans on the edge of their seats. Beyond the match, Dortmund offers a mix of culture and history—explore the fascinating Zollverein Coal Mine, visit the Westfalenpark, or take a stroll through the vibrant city center. Whether you're a die-hard BVB supporter or simply eager to experience the magic of football in one of Germany's most storied stadiums, this trip is an unforgettable adventure into the heart of German football!",
     "additionalInfo": "Please note large groups may encounter challenges due to membership constraints, so it’s advisable to check availability and make arrangements in advance to ensure a smooth experience.",
     "carousel": {
       "slideHead": "Bosussia Dortmund",
-      "slide1Paragraph": "placeholder",
-      "slide2Paragraph": "placeholder",
+      "slide1Paragraph": "Westfalenstadion, Dortmund",
+      "slide2Paragraph": "Phoenix-See, Dortmund",
       "slide3Paragraph": "placeholder",
       "slide4Paragraph": "placeholder",
       "slide5Paragraph": "placeholder"
@@ -587,13 +587,13 @@
     }
   },
   "monchengladbach": {
-    "pageTitle": "Borussia Monchengladbach",
-    "heading": "Borussia Monchengladbach",
+    "pageTitle": "Borussia Mönchengladbach",
+    "heading": "Borussia Mönchengladbach",
     "paragraph": "Embark on an exciting football journey to Germany as you witness Borussia Mönchengladbach at the iconic Borussia-Park! Known for their storied history and passionate fanbase, Borussia Mönchengladbach has long been a competitive force in the Bundesliga and boasts a rich tradition that includes multiple league titles and memorable European campaigns. The atmosphere at Borussia-Park on matchday is electric, with fans creating an unforgettable experience as they cheer for their team. Beyond the thrilling action on the pitch, Mönchengladbach offers a charming blend of culture and history—explore the vibrant Altstadt, visit the fascinating Museum Abteiberg, or take a stroll through the lush Grünstraße park. Whether you’re a devoted Gladbach supporter or simply eager to experience top-tier German football, this trip promises an unforgettable adventure filled with excitement and local culture!",
     "carousel": {
-      "slideHead": "Borussia Monchengladbach",
-      "slide1Paragraph": "placeholder",
-      "slide2Paragraph": "placeholder",
+      "slideHead": "Borussia Mönchengladbach",
+      "slide1Paragraph": "Borussia-Park, Mönchengladbach",
+      "slide2Paragraph": "Borussia-Park, Mönchengladbach",
       "slide3Paragraph": "placeholder",
       "slide4Paragraph": "placeholder",
       "slide5Paragraph": "placeholder"
@@ -683,11 +683,11 @@
     "paragraph": "Get ready for an unforgettable football experience in Milan as you witness AC Milan at the iconic San Siro Stadium! Renowned as one of the most successful clubs in football history, AC Milan boasts a rich legacy of Serie A titles and European triumphs that has cemented their place among the elite. The atmosphere at San Siro on matchday is electric, with passionate fans creating a stunning backdrop that adds to the excitement of every match. Beyond the thrilling football, Milan is a city steeped in culture and style—explore the breathtaking Duomo, shop in the luxury boutiques of the Galleria Vittorio Emanuele II, or visit the famous La Scala opera house. Whether you’re a devoted Rossoneri supporter or simply eager to experience world-class football, this trip promises a perfect blend of elite sport and the vibrant culture of Italy’s fashion capital!",
     "carousel": {
       "slideHead": "AC Milan",
-      "slide1Paragraph": "placeholder",
+      "slide1Paragraph": "San Siro, Milan",
       "slide2Paragraph": "placeholder",
-      "slide3Paragraph": "placeholder",
-      "slide4Paragraph": "placeholder",
-      "slide5Paragraph": "placeholder"
+      "slide3Paragraph": "San Siro, Milan",
+      "slide4Paragraph": "Galleria Vittorio Emanuele II, Milan",
+      "slide5Paragraph": "Duomo di Milano"
     }
   },
   "as-roma": {
@@ -735,11 +735,11 @@
     "paragraph": "Get ready for an electrifying football experience in Glasgow as you watch Celtic FC at the iconic Celtic Park! Known as one of the most successful clubs in Scottish football history, Celtic boasts a passionate fanbase and a rich legacy filled with numerous league titles and memorable European triumphs. The atmosphere at Celtic Park on matchday is nothing short of legendary, with devoted supporters creating an unforgettable backdrop as they cheer for their team. Beyond the thrilling football, Glasgow offers a vibrant cultural scene—explore the stunning architecture of the city, visit the Kelvingrove Art Gallery and Museum, or take a stroll through the beautiful Glasgow Green. Whether you’re a dedicated Celtic supporter or simply eager to experience the magic of Scottish football, this trip promises an incredible blend of elite sport and the lively spirit of one of the UK’s most dynamic cities!",
     "carousel": {
       "slideHead": "Celtic",
-      "slide1Paragraph": "placeholder",
+      "slide1Paragraph": "Celtic Park, Glasgow",
       "slide2Paragraph": "placeholder",
-      "slide3Paragraph": "placeholder",
-      "slide4Paragraph": "placeholder",
-      "slide5Paragraph": "placeholder"
+      "slide3Paragraph": "University of Glasgow, Glasgow",
+      "slide4Paragraph": "Glasgow Cathedral, Glasgow",
+      "slide5Paragraph": "Finnieston Crane, Glasgow"
     }
   },
   "rangers": {
@@ -1047,7 +1047,7 @@
             "link": "/germany/borussia-dortmund"
           },
           {
-            "label": "Borussia Monchengladbach",
+            "label": "Borussia Mönchengladbach",
             "link": "/germany/monchengladbach"
           },
           { "label": "Hamburger SV", "link": "/germany/hamburger-sv" },
