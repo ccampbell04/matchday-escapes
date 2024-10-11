@@ -11,6 +11,8 @@ import {
 import { FormEvent, useReducer, useState } from "react";
 import { SubmitWithToast } from "@/components/SubmitWithToast";
 import { DynamicNumberInput } from "./DynamicNumberInput";
+import { cilEnvelopeClosed } from "@coreui/icons";
+import CIcon from "@coreui/icons-react";
 
 type State = {
   name: string;

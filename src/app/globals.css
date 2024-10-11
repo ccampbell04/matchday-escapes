@@ -73,3 +73,12 @@ h3 {
   object-fit: cover; /* Ensures the image covers the container without stretching */
   position: relative; /* Remove absolute positioning to ensure image loads correctly */
 }
+
+.anchorFooter {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--background);
+  text-align: center;
+}
+ 

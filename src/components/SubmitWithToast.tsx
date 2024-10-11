@@ -1,3 +1,5 @@
+import { cilEnvelopeClosed, cilPaperPlane } from "@coreui/icons";
+import CIcon from "@coreui/icons-react";
 import {
   CToast,
   CToastHeader,
@@ -42,7 +44,7 @@ export function SubmitWithToast({
         type="submit"
         onClick={() => addToast(exampleToast as unknown as number)}
       >
-        {textFields.submit}
+        {textFields.submit} <CIcon icon={cilPaperPlane}/>
       </CButton>
       <CToaster
         className="p-3"
