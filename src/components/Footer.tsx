@@ -4,6 +4,7 @@ import { cibFacebook, cibInstagram, cibTiktok } from "@coreui/icons";
 import CIcon from "@coreui/icons-react";
 import { CFooter, CLink, CRow } from "@coreui/react";
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export function Footer(footerTextFields: Record<string, any>) {
   return (
     <div className="anchorFooter">

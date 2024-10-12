@@ -1,13 +1,13 @@
-import { cilEnvelopeClosed, cilPaperPlane } from "@coreui/icons";
+import { cilPaperPlane } from "@coreui/icons";
 import CIcon from "@coreui/icons-react";
 import {
-  CToast,
-  CToastHeader,
-  CToastBody,
   CButton,
+  CToast,
+  CToastBody,
   CToaster,
+  CToastHeader,
 } from "@coreui/react";
-import { useState, useRef, ReactElement } from "react";
+import { ReactElement, useRef, useState } from "react";
 
 export function SubmitWithToast({
   textFields,
