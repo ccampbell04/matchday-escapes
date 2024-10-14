@@ -8,7 +8,7 @@ export async function POST(request: Request): Promise<Response> {
    const { name, club, email, phone, length, numberOfGuests, roomType, airports } = await request.json();
 
    const { data, error } = await resend.emails.send({
-      from: 'Admin <admin@mhfusdohos.co.uk>',
+      from: 'Admin <admin@matchdayescapes.co.uk>',
       to: ['matchdayescapes@gmail.com'],
       subject: 'New Enquiry',
       react: EmailTemplate({ name: name, club: club, email: email, phone: phone, length: length, numberOfGuests: numberOfGuests, roomType: roomType, airports: airports }),
