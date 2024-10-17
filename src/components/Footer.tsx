@@ -21,17 +21,19 @@ export function Footer(footerTextFields: Record<string, any>) {
           </CLink>
         </CRow>
         <CRow xs={{ cols: "auto" }}>
-          <div>
-            <CLink href="https://coreui.io">CoreUI</CLink>
-            <span>&copy; 2024 creativeLabs.</span>
-          </div>
-        </CRow>
+          <CRow xs={{ cols: "auto" }}>
+            <div>
+              <CLink href="https://coreui.io">CoreUI</CLink>
+              <span>&copy; 2024 creativeLabs.</span>
+            </div>
+          </CRow>
 
-        <CRow xs={{ cols: "auto" }}>
-          <div>
-            <CLink href="https://coreui.io">CoreUI</CLink>
-            <span>&copy; 2024 creativeLabs.</span>
-          </div>
+          <CRow xs={{ cols: "auto" }}>
+            <div>
+              <CLink href="https://coreui.io">CoreUI</CLink>
+              <span>&copy; 2024 creativeLabs.</span>
+            </div>
+          </CRow>
         </CRow>
       </CFooter>
     </div>

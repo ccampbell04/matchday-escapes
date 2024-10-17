@@ -12,7 +12,7 @@ export function CountryClubCard({
   currentPage: string;
 }) {
   return (
-    <div className={cardTextFields.class}>
+    <div>
       <CCard>
         <div className="countryClubCardHeader">
           <CCardHeader as="h3">{cardTextFields.title}</CCardHeader>

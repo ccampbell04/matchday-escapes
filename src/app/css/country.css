@@ -1,47 +1,81 @@
 .netherlands {
   --primary-colour: #ff6200;
+  --button-hover-colour: #df5500;
+  --primary-text-colour: #ffffff;
+  --breadcrumb-link-colour: #ff6200;
 }
 
 .germany {
-  --primary-colour: #ffffff;
+  --primary-colour: #000000;
+  --button-hover-colour: #171717;
+  --primary-text-colour: #ffffff;
+  --breadcrumb-link-colour: #ffffff;
 }
 
 .spain {
   --primary-colour: #eb1000;
+  --button-hover-colour: #c00d00;
+  --primary-text-colour: #ffffff;
+  --breadcrumb-link-colour: #eb1000;
 }
 
 .italy {
   --primary-colour: #0033cc;
+  --button-hover-colour: #0028a0;
+  --primary-text-colour: #ffffff;
+  --breadcrumb-link-colour: #0033cc;
 }
 
 .scotland {
   --primary-colour: #003366;
+  --button-hover-colour: #002040;
+  --primary-text-colour: #ffffff;
+  --breadcrumb-link-colour: #003366;
 }
 
 .denmark {
   --primary-colour: #eb1000;
+  --button-hover-colour: #c00d00;
+  --primary-text-colour: #ffffff;
+  --breadcrumb-link-colour: #eb1000;
 }
 
 .france {
   --primary-colour: #0055a4;
+  --primary-text-colour: #ffffff;
+  --breadcrumb-link-colour: #0055a4;
 }
 
 .portugal {
   --primary-colour: #006600;
+  --primary-text-colour: #ffffff;
+  --breadcrumb-link-colour: #006600;
 }
 
 .switzerland {
   --primary-colour: #eb1000;
+  --button-hover-colour: #c00d00;
+  --primary-text-colour: #ffffff;
+  --breadcrumb-link-colour: #eb1000;
 }
 
 .czech-republic {
   --primary-colour: #eb1000;
+  --button-hover-colour: #c00d00;
+  --primary-text-colour: #ffffff;
+  --breadcrumb-link-colour: #eb1000;
 }
 
 .hungary {
   --primary-colour: #eb1000;
+  --button-hover-colour: #c00d00;
+  --primary-text-colour: #ffffff;
+  --breadcrumb-link-colour: #eb1000;
 }
 
 .poland {
-  --primary-colour: #ffffff;
+  --primary-colour: #eb1000;
+  --button-hover-colour: #c00d00;
+  --primary-text-colour: #ffffff;
+  --breadcrumb-link-colour: #eb1000;
 }

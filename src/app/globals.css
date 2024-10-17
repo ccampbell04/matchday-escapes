@@ -37,7 +37,7 @@ body {
 .content {
   flex: 1;
   min-height: 100vh;
-  padding-bottom: 5%;
+  padding-bottom: 65px;
 }
 
 .formContainer {
@@ -103,7 +103,7 @@ h3 {
 }
 
 .breadcrumb-item.active {
-  color: var(--primary-colour);
+  color: var(--breadcrumb-link-colour);
 }
 
 .clubParagraph {
