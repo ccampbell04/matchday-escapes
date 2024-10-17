@@ -36,7 +36,7 @@ export default function Page({ params }: { params: { country: string } }) {
   const textFields = getTextFieldsForCountryPage(params.country);
   const breadCrumbTextFields = getBreadCrumbTextFields(params);
   return (
-    <>
+    <div className={params.country}>
       <BreadCrumbs
         breadCrumbTextFields={breadCrumbTextFields}
         activePage={params.country}
@@ -74,6 +74,6 @@ export default function Page({ params }: { params: { country: string } }) {
           );
         })}
       </CRow>
-    </>
+    </div>
   );
 }

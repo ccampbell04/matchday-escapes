@@ -2,9 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "./css/clubs.css";
+@import "./css/country.css";
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary-colour: #52a9ff;
+  --button-hover-colour: #52a9cc;
+  --primary-text-colour: #ffffff;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -14,10 +20,24 @@
   }
 }
 
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+  min-height: 100vh;
+  padding-bottom: 5%;
 }
 
 .formContainer {
@@ -51,7 +71,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.25em; 
+  font-size: 1.25em;
   font-weight: bold;
   margin-top: 1%;
   margin-bottom: 1%;
@@ -75,10 +95,87 @@ h3 {
 }
 
 .anchorFooter {
-  position: relative;
+  position: fixed;
   bottom: 0;
+  left: 0;
   width: 100%;
-  background-color: var(--background);
   text-align: center;
 }
- 
+
+.breadcrumb-item.active {
+  color: var(--primary-colour);
+}
+
+.clubParagraph {
+  background-color: var(--primary-colour);
+  color: var(--primary-text-colour);
+}
+
+.contactUsButton button {
+  background-color: var(--primary-colour);
+  color: var(--primary-text-colour);
+  border: 1px solid var(--primary-colour);
+  outline: none;
+
+  --cui-btn-active-color: var(--primary-text-colour);
+  --cui-btn-active-bg: var(--button-hover-colour);
+  --cui-btn-active-border-color: var(--primary-colour);
+  --cui-btn-disabled-color: var(--primary-text-colour);
+  --cui-btn-disabled-bg: var(--button-hover-colour);
+  --cui-btn-disabled-border-color: var(--primary-colour);
+}
+
+.contactUsButton button:active,
+.contactUsButton button:focus,
+.contactUsButton button:focus-visible {
+  background-color: var(--button-hover-colour);
+  color: var(--primary-text-colour);
+  filter: brightness(90%);
+  border: 1px solid var(--primary-colour);
+  outline: none;
+}
+
+.contactUsButton button:hover {
+  background-color: var(--button-hover-colour);
+  color: var(--primary-text-colour);
+  filter: brightness(90%);
+  border: 1px solid var(--primary-colour);
+}
+
+.countryCardButtonPadding a {
+  background-color: var(--primary-colour);
+  color: var(--primary-text-colour);
+  border: 1px solid var(--primary-colour);
+  outline: none;
+
+  --cui-btn-active-color: var(--primary-text-colour);
+  --cui-btn-active-bg: var(--button-hover-colour);
+  --cui-btn-active-border-color: var(--primary-colour);
+  --cui-btn-disabled-color: var(--primary-text-colour);
+  --cui-btn-disabled-bg: var(--button-hover-colour);
+  --cui-btn-disabled-border-color: var(--primary-colour);
+}
+
+.countryCardButtonPadding a:active,
+.countryCardButtonPadding a:focus,
+.countryCardButtonPadding a:focus-visible {
+  background-color: var(--button-hover-colour);
+  color: var(--primary-text-colour);
+  filter: brightness(90%);
+  border: 1px solid var(--primary-colour);
+  outline: none;
+}
+
+.countryCardButtonPadding a:hover {
+  background-color: var(--button-hover-colour);
+  color: var(--primary-text-colour);
+  filter: brightness(90%);
+  border: 1px solid var(--primary-colour);
+}
+
+.countryClubCardHeader {
+  background-color: var(--primary-colour);
+  color: var(--primary-text-colour);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}

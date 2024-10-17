@@ -22,10 +22,12 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <main>
-          <SpeedInsights />
-          <Analytics />
-          <Header textFields={headerTextFields} />
-          {children}
+          <div className="content">
+            <SpeedInsights />
+            <Analytics />
+            <Header textFields={headerTextFields} />
+            {children}
+          </div>
           <Footer footerTextFields={{}} />
         </main>
       </body>

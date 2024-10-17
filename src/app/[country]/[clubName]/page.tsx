@@ -41,7 +41,7 @@ export default function Page({
   const textFields = getTextFieldsForClubPage(params.clubName);
   const breadCrumbTextFields = getBreadCrumbTextFields(params);
   return (
-    <>
+    <div className={params.clubName}>
       <BreadCrumbs
         breadCrumbTextFields={breadCrumbTextFields}
         activePage={params.clubName}
@@ -56,7 +56,7 @@ export default function Page({
       />
 
       <CCol sm={12} className="marginContainer">
-        <CCard>
+        <CCard className="clubParagraph">
           <CCardBody>{textFields.paragraph}</CCardBody>
           {textFields.additionalInfo && (
             <CCardBody>{textFields.additionalInfo}</CCardBody>
@@ -65,6 +65,6 @@ export default function Page({
       </CCol>
 
       <ContactUsForm textFields={textFields} />
-    </>
+    </div>
   );
 }

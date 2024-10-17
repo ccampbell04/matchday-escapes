@@ -203,7 +203,7 @@ export function ContactUsForm({
           />
         </CCol>
         <CCol xs={12}>
-          <center>
+          <center className="contactUsButton">
             {!isSubmitting ? (
               <SubmitWithToast textFields={textFields} />
             ) : (
