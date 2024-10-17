@@ -3,7 +3,7 @@ import { CountryClubCard } from "@/components/CountryClubCard";
 import { getBreadCrumbTextFields } from "@/utils/breadCrumbUtils";
 import { isValidCountry } from "@/utils/entryUtils";
 import {
-  getPageTitle,
+  getCountryPageTitle,
   getTextFieldsForCountryPage,
 } from "@/utils/textFieldUtils";
 import { CCol, CRow } from "@coreui/react";
@@ -24,7 +24,7 @@ export async function generateMetadata({
     };
   }
   return {
-    title: getPageTitle(params.country),
+    title: getCountryPageTitle(params.country),
   };
 }
 

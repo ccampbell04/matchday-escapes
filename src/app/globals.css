@@ -37,7 +37,7 @@ body {
 .content {
   flex: 1;
   min-height: 100vh;
-  padding-bottom: 65px;
+  padding-bottom: 110px;
 }
 
 .formContainer {
@@ -112,17 +112,17 @@ h3 {
 }
 
 .contactUsButton button {
-  background-color: var(--primary-colour);
+  background-color: var(--button-primary-colour);
   color: var(--primary-text-colour);
-  border: 1px solid var(--primary-colour);
+  border: 1px solid var(--button-primary-colour);
   outline: none;
 
   --cui-btn-active-color: var(--primary-text-colour);
   --cui-btn-active-bg: var(--button-hover-colour);
-  --cui-btn-active-border-color: var(--primary-colour);
+  --cui-btn-active-border-color: var(--button-hover-colour);
   --cui-btn-disabled-color: var(--primary-text-colour);
   --cui-btn-disabled-bg: var(--button-hover-colour);
-  --cui-btn-disabled-border-color: var(--primary-colour);
+  --cui-btn-disabled-border-color: var(--button-hover-colour);
 }
 
 .contactUsButton button:active,
@@ -131,7 +131,7 @@ h3 {
   background-color: var(--button-hover-colour);
   color: var(--primary-text-colour);
   filter: brightness(90%);
-  border: 1px solid var(--primary-colour);
+  border: 1px solid var(--button-hover-colour);
   outline: none;
 }
 
@@ -139,7 +139,7 @@ h3 {
   background-color: var(--button-hover-colour);
   color: var(--primary-text-colour);
   filter: brightness(90%);
-  border: 1px solid var(--primary-colour);
+  border: 1px solid var(--button-hover-colour);
 }
 
 .countryCardButtonPadding a {

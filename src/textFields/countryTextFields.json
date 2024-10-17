@@ -1,0 +1,531 @@
+{
+  "netherlands": {
+    "pageTitle": "Netherlands",
+    "heading": "Netherlands",
+    "cards": [
+      {
+        "title": "Ajax",
+        "description": "ajax",
+        "class": "ajax",
+        "location": "Amsterdam, Netherlands",
+        "league": "Eredivisie",
+        "founded": "1900",
+        "stadium": "Johan Cruijff Arena",
+        "capacity": "54,990",
+        "built": "1996",
+        "link": "/ajax"
+      },
+      {
+        "title": "Feyenoord",
+        "description": "feyenoord",
+        "class": "feyenoord",
+        "location": "Rotterdam, Netherlands",
+        "league": "Eredivisie",
+        "founded": "1908",
+        "stadium": "De Kuip",
+        "capacity": "51,117",
+        "built": "1937",
+        "link": "/feyenoord"
+      },
+      {
+        "title": "PSV Eindhoven",
+        "description": "psv",
+        "class": "psv",
+        "location": "Eindhoven, Netherlands",
+        "league": "Eredivisie",
+        "founded": "1913",
+        "stadium": "Philips Stadion",
+        "capacity": "35,000",
+        "built": "1913",
+        "link": "/psv"
+      }
+    ]
+  },
+  "germany": {
+    "pageTitle": "Germany",
+    "heading": "Germany",
+    "cards": [
+      {
+        "title": "Bayern Munich",
+        "description": "bayern-munich",
+        "class": "bayern-munich",
+        "location": "Munich, Germany",
+        "league": "Bundesliga",
+        "founded": "1900",
+        "stadium": "Allianz Arena",
+        "capacity": "75,000",
+        "built": "2005",
+        "link": "/bayern-munich"
+      },
+      {
+        "title": "Borussia Dortmund",
+        "description": "borussia-dortmund",
+        "class": "borussia-dortmund",
+        "location": "Dortmund, Germany",
+        "league": "Bundesliga",
+        "founded": "1909",
+        "stadium": "Westfalenstadion",
+        "capacity": "81,365",
+        "built": "1974",
+        "link": "/borussia-dortmund"
+      },
+      {
+        "title": "Borussia Mönchengladbach",
+        "description": "monchengladbach",
+        "class": "monchengladbach",
+        "location": "Mönchengladbach, Germany",
+        "league": "Bundesliga",
+        "founded": "1900",
+        "stadium": "Borussia-Park",
+        "capacity": "54,057",
+        "built": "2004",
+        "link": "/monchengladbach"
+      },
+      {
+        "title": "Hamburger SV",
+        "description": "hamburger-sv",
+        "class": "hamburger-sv",
+        "location": "Hamburg, Germany",
+        "league": "2. Bundesliga",
+        "founded": "1887",
+        "stadium": "Volksparkstadion",
+        "capacity": "57,000",
+        "built": "2000",
+        "link": "/hamburger-sv"
+      },
+      {
+        "title": "Hertha BSC",
+        "description": "hertha-bsc",
+        "class": "hertha-bsc",
+        "location": "Berlin, Germany",
+        "league": "2. Bundesliga",
+        "founded": "1892",
+        "stadium": "Olympiastadion",
+        "capacity": "74,475",
+        "built": "1936",
+        "link": "/hertha-bsc"
+      }
+    ]
+  },
+  "spain": {
+    "pageTitle": "Spain",
+    "heading": "Spain",
+    "cards": [
+      {
+        "title": "Atletico Madrid",
+        "description": "atletico-madrid",
+        "class": "atletico-madrid",
+        "location": "Madrid, Spain",
+        "league": "La Liga",
+        "founded": "1903",
+        "stadium": "Wanda Metropolitano",
+        "capacity": "68,456",
+        "built": "1994",
+        "link": "/atletico-madrid"
+      },
+      {
+        "title": "Barcelona",
+        "description": "barcelona",
+        "class": "barcelona",
+        "location": "Barcelona, Spain",
+        "league": "La Liga",
+        "founded": "1899",
+        "stadium": "Camp Nou",
+        "capacity": "99,354",
+        "built": "1957",
+        "link": "/barcelona"
+      },
+      {
+        "title": "Real Betis",
+        "description": "real-betis",
+        "class": "real-betis",
+        "location": "Seville, Spain",
+        "league": "La Liga",
+        "founded": "1907",
+        "stadium": "Estadio Benito Villamarín",
+        "capacity": "60,720",
+        "built": "1929",
+        "link": "/real-betis"
+      },
+      {
+        "title": "Sevilla",
+        "description": "sevilla",
+        "class": "sevilla",
+        "location": "Seville, Spain",
+        "league": "La Liga",
+        "founded": "1890",
+        "stadium": "Ramón Sánchez-Pizjuán",
+        "capacity": "43,883",
+        "built": "1958",
+        "link": "/sevilla"
+      },
+      {
+        "title": "Valencia",
+        "description": "valencia",
+        "class": "valencia",
+        "location": "Valencia, Spain",
+        "league": "La Liga",
+        "founded": "1919",
+        "stadium": "Estadio de Mestalla",
+        "capacity": "48,600",
+        "built": "1923",
+        "link": "/valencia"
+      }
+    ]
+  },
+  "italy": {
+    "pageTitle": "Italy",
+    "heading": "Italy",
+    "cards": [
+      {
+        "title": "AC Milan",
+        "description": "ac-milan",
+        "class": "ac-milan",
+        "location": "Milan, Italy",
+        "league": "Serie A",
+        "founded": "1899",
+        "stadium": "San Siro",
+        "capacity": "75,923",
+        "built": "1926",
+        "link": "/ac-milan"
+      },
+      {
+        "title": "AS Roma",
+        "description": "as-roma",
+        "class": "as-roma",
+        "location": "Rome, Italy",
+        "league": "Serie A",
+        "founded": "1927",
+        "stadium": "Stadio Olimpico",
+        "capacity": "70,634",
+        "built": "1937",
+        "link": "/as-roma"
+      },
+      {
+        "title": "Internazionale Milano",
+        "description": "inter-milan",
+        "class": "inter-milan",
+        "location": "Milan, Italy",
+        "league": "Serie A",
+        "founded": "1908",
+        "stadium": "San Siro",
+        "capacity": "75,923",
+        "built": "1926",
+        "link": "/inter-milan"
+      },
+      {
+        "title": "Juventus",
+        "description": "juventus",
+        "class": "juventus",
+        "location": "Turin, Italy",
+        "league": "Serie A",
+        "founded": "1897",
+        "stadium": "Allianz Stadium",
+        "capacity": "41,507",
+        "built": "2011",
+        "link": "/juventus"
+      },
+      {
+        "title": "SSC Napoli",
+        "description": "napoli",
+        "class": "napoli",
+        "location": "Naples, Italy",
+        "league": "Serie A",
+        "founded": "1926",
+        "stadium": "Stadio Diego Armando Maradona",
+        "capacity": "54,726",
+        "built": "1959",
+        "link": "/napoli"
+      }
+    ]
+  },
+  "scotland": {
+    "pageTitle": "Scotland",
+    "heading": "Scotland",
+    "cards": [
+      {
+        "title": "Celtic",
+        "description": "celtic",
+        "class": "celtic",
+        "location": "Glasgow, Scotland",
+        "league": "Scottish Premiership",
+        "founded": "1888",
+        "stadium": "Celtic Park",
+        "capacity": "60,411",
+        "built": "1892",
+        "link": "/celtic"
+      },
+      {
+        "title": "Rangers",
+        "description": "rangers",
+        "class": "rangers",
+        "location": "Glasgow, Scotland",
+        "league": "Scottish Premiership",
+        "founded": "1872",
+        "stadium": "Ibrox Stadium",
+        "capacity": "50,817",
+        "built": "1899",
+        "link": "/rangers"
+      }
+    ]
+  },
+  "denmark": {
+    "pageTitle": "Denmark",
+    "heading": "Denmark",
+    "cards": [
+      {
+        "title": "Brøndby IF",
+        "description": "brondby-if",
+        "class": "brondby-if",
+        "location": "Brøndby, Denmark",
+        "league": "Danish Superliga",
+        "founded": "1964",
+        "stadium": "Brøndby Stadium",
+        "capacity": "28,000",
+        "built": "1965",
+        "link": "/brondby-if"
+      },
+      {
+        "title": "FC Copenhagen",
+        "description": "fc-copenhagen",
+        "class": "fc-copenhagen",
+        "location": "Copenhagen, Denmark",
+        "league": "Danish Superliga",
+        "founded": "1992",
+        "stadium": "Parken Stadium",
+        "capacity": "38,065",
+        "built": "1992",
+        "link": "/fc-copenhagen"
+      }
+    ]
+  },
+  "france": {
+    "pageTitle": "France",
+    "heading": "France",
+    "cards": [
+      {
+        "title": "AS Monaco",
+        "description": "monaco",
+        "class": "monaco",
+        "location": "Monaco",
+        "league": "Ligue 1",
+        "founded": "1924",
+        "stadium": "Stade Louis II",
+        "capacity": "16,000",
+        "built": "1985",
+        "link": "/monaco"
+      },
+      {
+        "title": "OGC Nice",
+        "description": "nice",
+        "class": "nice",
+        "location": "Nice, France",
+        "league": "Ligue 1",
+        "founded": "1904",
+        "stadium": "Allianz Riviera",
+        "capacity": "35,624",
+        "built": "2013",
+        "link": "/nice"
+      },
+      {
+        "title": "Olympique de Marseille",
+        "description": "marseille",
+        "class": "marseille",
+        "location": "Marseille, France",
+        "league": "Ligue 1",
+        "founded": "1899",
+        "stadium": "Stade Vélodrome",
+        "capacity": "67,394",
+        "built": "1937",
+        "link": "/marseille"
+      },
+
+      {
+        "title": "Olympique Lyonnais",
+        "description": "lyonnais",
+        "class": "lyonnais",
+        "location": "Lyon, France",
+        "league": "Ligue 1",
+        "founded": "1950",
+        "stadium": "Groupama Stadium",
+        "capacity": "59,286",
+        "built": "2016",
+        "link": "/lyon"
+      },
+      {
+        "title": "Paris Saint-Germain",
+        "description": "psg",
+        "class": "psg",
+        "location": "Paris, France",
+        "league": "Ligue 1",
+        "founded": "1970",
+        "stadium": "Parc des Princes",
+        "capacity": "47,929",
+        "built": "1972",
+        "link": "/psg"
+      }
+    ]
+  },
+  "portugal": {
+    "pageTitle": "Portugal",
+    "heading": "Portugal",
+    "cards": [
+      {
+        "title": "FC Porto",
+        "description": "fc-porto",
+        "class": "fc-porto",
+        "location": "Porto, Portugal",
+        "league": "Primeira Liga",
+        "founded": "1893",
+        "stadium": "Estádio do Dragão",
+        "capacity": "50,033",
+        "built": "2003",
+        "link": "/fc-porto"
+      },
+      {
+        "title": "SL Benfica",
+        "description": "sl-benfica",
+        "class": "sl-benfica",
+        "location": "Lisbon, Portugal",
+        "league": "Primeira Liga",
+        "founded": "1904",
+        "stadium": "Estádio da Luz",
+        "capacity": "64,642",
+        "built": "2003",
+        "link": "/sl-benfica"
+      },
+      {
+        "title": "Sporting CP",
+        "description": "sporting-cp",
+        "class": "sporting-cp",
+        "location": "Lisbon, Portugal",
+        "league": "Primeira Liga",
+        "founded": "1906",
+        "stadium": "Estádio José Alvalade",
+        "capacity": "50,095",
+        "built": "2003",
+        "link": "/sporting-cp"
+      }
+    ]
+  },
+  "switzerland": {
+    "pageTitle": "Switzerland",
+    "heading": "Switzerland",
+    "cards": [
+      {
+        "title": "BSC Young Boys",
+        "description": "bsc-young-boys",
+        "class": "bsc-young-boys",
+        "location": "Bern, Switzerland",
+        "league": "Swiss Super League",
+        "founded": "1898",
+        "stadium": "Wankdorfstadion",
+        "capacity": "32,000",
+        "built": "2005",
+        "link": "/bsc-young-boys"
+      },
+      {
+        "title": "FC Basel 1893",
+        "description": "fc-basel",
+        "class": "fc-basel",
+        "location": "Basel, Switzerland",
+        "league": "Swiss Super League",
+        "founded": "1893",
+        "stadium": "St. Jakob-Park",
+        "capacity": "38,512",
+        "built": "2001",
+        "link": "/fc-basel"
+      },
+      {
+        "title": "FC Zurich",
+        "description": "fc-zurich",
+        "class": "fc-zurich",
+        "location": "Zurich, Switzerland",
+        "league": "Swiss Super League",
+        "founded": "1896",
+        "stadium": "Letzigrund",
+        "capacity": "26,104",
+        "built": "2007",
+        "link": "/fc-zurich"
+      }
+    ]
+  },
+  "czech-republic": {
+    "pageTitle": "Czech Republic",
+    "heading": "Czech Republic",
+    "cards": [
+      {
+        "title": "Slavia Prague",
+        "description": "slavia-prague",
+        "class": "slavia-prague",
+        "location": "Prague, Czech Republic",
+        "league": "Czech First League",
+        "founded": "1892",
+        "stadium": "Eden Arena",
+        "capacity": "21,000",
+        "built": "2008",
+        "link": "/slavia"
+      },
+      {
+        "title": "Sparta Prague",
+        "description": "sparta-prague",
+        "class": "sparta-prague",
+        "location": "Prague, Czech Republic",
+        "league": "Czech First League",
+        "founded": "1893",
+        "stadium": "Generali Arena",
+        "capacity": "19,416",
+        "built": "1917",
+        "link": "/sparta"
+      }
+    ]
+  },
+  "hungary": {
+    "pageTitle": "Hungary",
+    "heading": "Hungary",
+    "cards": [
+      {
+        "title": "Ferencváros TC",
+        "description": "ferencvaros",
+        "class": "ferencvaros",
+        "location": "Budapest, Hungary",
+        "league": "NB I",
+        "founded": "1899",
+        "stadium": "Groupama Arena",
+        "capacity": "22,000",
+        "built": "2014",
+        "link": "/ferencvaros"
+      }
+    ]
+  },
+  "poland": {
+    "pageTitle": "Poland",
+    "heading": "Poland",
+    "cards": [
+      {
+        "title": "Legia Warsaw",
+        "description": "legia-warsaw",
+        "class": "legia-warsaw",
+        "location": "Warsaw, Poland",
+        "league": "Ekstraklasa",
+        "founded": "1916",
+        "stadium": "Stadion Wojska Polskiego",
+        "capacity": "31,103",
+        "built": "2011",
+        "link": "/legia-warsaw"
+      },
+      {
+        "title": "Wisla Krakow",
+        "description": "wisla-krakow",
+        "class": "wisla-krakow",
+        "location": "Krakow, Poland",
+        "league": "I Liga",
+        "founded": "1906",
+        "stadium": "Stadion Miejski im. Henryka Reymana",
+        "capacity": "33,326",
+        "built": "1953",
+        "link": "/wisla-krakow"
+      }
+    ]
+  }
+}

@@ -1,5 +1,5 @@
 import { Header } from "@/components/Header";
-import { getTextFields } from "@/utils/textFieldUtils";
+import { getHeaderTextFields } from "@/utils/textFieldUtils";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/react";
 import "@coreui/coreui/dist/css/coreui.min.css";
@@ -17,7 +17,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const headerTextFields = getTextFields("header");
+  const headerTextFields = getHeaderTextFields("header");
   return (
     <html lang="en">
       <body>

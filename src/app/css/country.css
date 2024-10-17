@@ -67,10 +67,10 @@
 }
 
 .hungary {
-  --primary-colour: #eb1000;
-  --button-hover-colour: #c00d00;
+  --primary-colour: #008000;
+  --button-hover-colour: #005f00;
   --primary-text-colour: #ffffff;
-  --breadcrumb-link-colour: #eb1000;
+  --breadcrumb-link-colour: #008000;
 }
 
 .poland {

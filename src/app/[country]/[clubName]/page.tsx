@@ -3,7 +3,10 @@ import { Carousel } from "@/components/Carousel";
 import { ContactUsForm } from "@/components/ContactUsForm";
 import { getBreadCrumbTextFields } from "@/utils/breadCrumbUtils";
 import { isValidClub } from "@/utils/entryUtils";
-import { getPageTitle, getTextFieldsForClubPage } from "@/utils/textFieldUtils";
+import {
+  getClubPageTitle,
+  getTextFieldsForClubPage
+} from "@/utils/textFieldUtils";
 import { CCard, CCardBody, CCol } from "@coreui/react";
 import { Metadata } from "next";
 
@@ -21,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title: getPageTitle(clubName),
+    title: getClubPageTitle(clubName),
   };
 }
 

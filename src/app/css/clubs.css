@@ -1,6 +1,315 @@
+/* Germany */
+.bayern-munich {
+  --primary-colour: #dc052d;
+  --button-primary-colour: #0066b2;
+  --button-hover-colour: #004e8a;
+  --primary-text-colour: #ffffff;
+  --breadcrumb-link-colour: #dc052d;
+}
+
+.borussia-dortmund {
+  --primary-colour: #fde100;
+  --button-primary-colour: #fde100;
+  --button-hover-colour: #d5bc00;
+  --primary-text-colour: #000000;
+  --breadcrumb-link-colour: #fde100;
+}
+
+.monchengladbach {
+  --primary-colour: #ffffff;
+  --button-primary-colour: #007206;
+  --button-hover-colour: #005304;
+  --primary-text-colour: #000000;
+  --breadcrumb-link-colour: #ffffff;
+}
+
+.hamburger-sv {
+  --primary-colour: #1713f7;
+  --button-primary-colour: #fd1220;
+  --button-hover-colour: #cd0d1a;
+  --primary-text-colour: #ffffff;
+  --breadcrumb-link-colour: #1713f7;
+}
+
+.hertha-bsc {
+  --primary-colour: #004d9e;
+  --button-primary-colour: #004d9e;
+  --button-hover-colour: #003d7e;
+  --primary-text-colour: #ffffff;
+  --breadcrumb-link-colour: #004d9e;
+}
+
+/* Italy */
+.ac-milan {
+  --primary-colour: #fb090b;
+  --button-primary-colour: #fb090b;
+  --button-hover-colour: #d00808;
+  --primary-text-colour: #ffffff;
+  --breadcrumb-link-colour: #fb090b;
+}
+
+.as-roma {
+  --primary-colour: #8e1f2f;
+  --button-primary-colour: #f0bc42;
+  --button-hover-colour: #bf9534;
+  --primary-text-colour: #ffffff;
+  --breadcrumb-link-colour: #8e1f2f;
+}
+
+.inter-milan {
+  --primary-colour: #010e80;
+  --button-primary-colour: #010e80;
+  --button-hover-colour: #000957;
+  --primary-text-colour: #ffffff;
+  --breadcrumb-link-colour: #010e80;
+}
+
+.juventus {
+  --primary-colour: #ffffff;
+  --button-primary-colour: #ffffff;
+  --button-hover-colour: #e6e6e6;
+  --primary-text-colour: #000000;
+  --breadcrumb-link-colour: #ffffff;
+}
+
+.napoli {
+  --primary-colour: #12a0d7;
+  --button-primary-colour: #003c82;
+  --button-hover-colour: #002b5d;
+  --primary-text-colour: #ffffff;
+  --breadcrumb-link-colour: #12a0d7;
+}
+
+/* Spain */
+.atletico-madrid {
+  --primary-colour: #272e61;
+  --button-primary-colour: #cb3524;
+  --button-hover-colour: #98261a;
+  --primary-text-colour: #ffffff;
+  --breadcrumb-link-colour: #272e61;
+}
+
+.barcelona {
+  --primary-colour: #a50044;
+  --button-primary-colour: #004d98;
+  --button-hover-colour: #00356a;
+  --primary-text-colour: #ffffff;
+  --breadcrumb-link-colour: #a50044;
+}
+
+.real-betis {
+  --primary-colour: #0bb363;
+  --button-primary-colour: #0bb363;
+  --button-hover-colour: #078749;
+  --primary-text-colour: #000000;
+  --breadcrumb-link-colour: #0bb363;
+}
+
+.sevilla {
+  --primary-colour: #f43333;
+  --button-primary-colour: #f43333;
+  --button-hover-colour: #ca2929;
+  --primary-text-colour: #000000;
+  --breadcrumb-link-colour: #f43333;
+}
+
+.valencia {
+  --primary-colour: #ee3524;
+  --button-primary-colour: #ee3524;
+  --button-hover-colour: #bf291b;
+  --primary-text-colour: #ffffff;
+  --breadcrumb-link-colour: #ee3524;
+}
+
+/* Netherlands */
 .ajax {
+  --primary-colour: #d2122e;
+  --button-primary-colour: #d2122e;
+  --button-hover-colour: #a80f26;
+  --primary-text-colour: #ffffff;
+  --breadcrumb-link-colour: #d2122e;
+}
+
+.feyenoord {
+  --primary-colour: #e2001a;
+  --button-primary-colour: #ae9962;
+  --button-hover-colour: #817147;
+  --primary-text-colour: #ffffff;
+  --breadcrumb-link-colour: #e2001a;
+}
+
+.psv {
+  --primary-colour: #f00000;
+  --button-primary-colour: #a8862d;
+  --button-hover-colour: #7e6421;
+  --primary-text-colour: #ffffff;
+  --breadcrumb-link-colour: #f00000;
+}
+
+/* France */
+.monaco {
+  --primary-colour: #9b1116;
+  --button-primary-colour: #cb9f18;
+  --button-hover-colour: #9e7b12;
+  --primary-text-colour: #ffffff;
+  --breadcrumb-link-colour: #9b1116;
+}
+
+.nice {
   --primary-colour: #ff0000;
-  --button-hover-colour: #cc0000;
-  --primary-text-color: #ffffff;
+  --button-primary-colour: #ff0000;
+  --button-hover-colour: #ce0000;
+  --primary-text-colour: #000000;
   --breadcrumb-link-colour: #ff0000;
+}
+
+.marseille {
+  --primary-colour: #2faee0;
+  --button-primary-colour: #bea064;
+  --button-hover-colour: #91794a;
+  --primary-text-colour: #ffffff;
+  --breadcrumb-link-colour: #2faee0;
+}
+
+.lyon {
+  --primary-colour: #003a80;
+  --button-primary-colour: #da001a;
+  --button-hover-colour: #ac0014;
+  --primary-text-colour: #ffffff;
+  --breadcrumb-link-colour: #003a80;
+}
+
+.psg {
+  --primary-colour: #004170;
+  --button-primary-colour: #e30613;
+  --button-hover-colour: #b20611;
+  --primary-text-colour: #ffffff;
+  --breadcrumb-link-colour: #004170;
+}
+
+/* Portugal */
+.fc-porto {
+  --primary-colour: #0e00f7;
+  --button-primary-colour: #0e00f7;
+  --button-hover-colour: #0a00ca;
+  --primary-text-colour: #ffffff;
+  --breadcrumb-link-colour: #0e00f7;
+}
+
+.sl-benfica {
+  --primary-colour: #fd1220;
+  --button-primary-colour: #009248;
+  --button-hover-colour: #006834;
+  --primary-text-colour: #ffffff;
+  --breadcrumb-link-colour: #fd1220;
+}
+
+.sporting-cp {
+  --primary-colour: #008057;
+  --button-primary-colour: #008057;
+  --button-hover-colour: #004d34;
+  --primary-text-colour: #ffffff;
+  --breadcrumb-link-colour: #008057;
+}
+
+/* Scotland */
+.celtic {
+  --primary-colour: #018749;
+  --button-primary-colour: #018749;
+  --button-hover-colour: #00572e;
+  --primary-text-colour: #ffffff;
+  --breadcrumb-link-colour: #018749;
+}
+
+.rangers {
+  --primary-colour: #0000ff;
+  --button-primary-colour: #e51620;
+  --button-hover-colour: #ac101a;
+  --primary-text-colour: #ffffff;
+  --breadcrumb-link-colour: #0000ff;
+}
+
+/* Denmark */
+.brondby-if {
+  --primary-colour: #ddc700;
+  --button-primary-colour: #005daa;
+  --button-hover-colour: #004a8a;
+  --primary-text-colour: #000000;
+  --breadcrumb-link-colour: #ddc700;
+}
+
+.fc-copenhagen {
+  --primary-colour: #004d98;
+  --button-primary-colour: #cd0c29;
+  --button-hover-colour: #aa0921;
+  --primary-text-colour: #ffffff;
+  --breadcrumb-link-colour: #004d98;
+}
+
+/* Switzerland */
+.young-boys {
+  --primary-colour: #fde100;
+  --button-primary-colour: #fde100;
+  --button-hover-colour: #d5bc00;
+  --primary-text-colour: #000000;
+  --breadcrumb-link-colour: #fde100;
+}
+
+.fc-basel {
+  --primary-colour: #0055a4;
+  --button-primary-colour: #e51620;
+  --button-hover-colour: #bd1019;
+  --primary-text-colour: #ffffff;
+  --breadcrumb-link-colour: #0055a4;
+}
+
+.fc-zurich {
+  --primary-colour: #00085e;
+  --button-primary-colour: #00085e;
+  --button-hover-colour: #00053d;
+  --primary-text-colour: #ffffff;
+  --breadcrumb-link-colour: #eaaf00;
+}
+
+/* Czech Republic */
+.slavia {
+  --primary-colour: #e51620;
+  --button-primary-colour: #e51620;
+  --button-hover-colour: #bd1019;
+  --primary-text-colour: #ffffff;
+  --breadcrumb-link-colour: #e51620;
+}
+
+.sparta {
+  --primary-colour: #a50044;
+  --button-primary-colour: #a50044;
+  --button-hover-colour: #a50044;
+  --primary-text-colour: #ffffff;
+  --breadcrumb-link-colour: #a50044;
+}
+
+/* Hungary */
+.ferencvaros {
+  --primary-colour: #008000;
+  --button-primary-colour: #008000;
+  --button-hover-colour: #005f00;
+  --primary-text-colour: #ffffff;
+  --breadcrumb-link-colour: #008000;
+}
+
+/* Poland */
+.legia-warsaw {
+  --primary-colour: #1e5031;
+  --button-primary-colour: #1e5031;
+  --button-hover-colour: #153822;
+  --primary-text-colour: #ffffff;
+  --breadcrumb-link-colour: #1e5031;
+}
+
+.wisla-krakow {
+  --primary-colour: #b60000;
+  --button-primary-colour: #b60000;
+  --button-hover-colour: #820000;
+  --primary-text-colour: #ffffff;
+  --breadcrumb-link-colour: #b60000;
 }

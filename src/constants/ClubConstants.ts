@@ -27,7 +27,7 @@ export const CLUBS = {
   [COUNTRIES.DENMARK]: ["fc-copenhagen", "brondby-if"],
   [COUNTRIES.FRANCE]: ["psg", "marseille", "lyon", "monaco", "nice"],
   [COUNTRIES.PORTUGAL]: ["sl-benfica", "sporting-cp", "fc-porto"],
-  [COUNTRIES.SWITZERLAND]: ["basel", "zurich", "young-boys"],
+  [COUNTRIES.SWITZERLAND]: ["fc-basel", "fc-zurich", "young-boys"],
   [COUNTRIES.CZECH]: ["sparta", "slavia"],
   [COUNTRIES.HUNGARY]: ["ferencvaros"],
   [COUNTRIES.POLAND]: ["legia-warsaw", "wisla-krakow"],
