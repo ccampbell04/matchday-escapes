@@ -11,7 +11,6 @@ import {
 } from "@coreui/react";
 import { FormEvent, useReducer, useState } from "react";
 import { DynamicNumberInput } from "./DynamicNumberInput";
-import logger from "@/utils/loggerUtils";
 
 type State = {
   name: string;
