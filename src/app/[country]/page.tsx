@@ -2,6 +2,7 @@ import { BreadCrumbs } from "@/components/BreadCrumbs";
 import { CountryClubCard } from "@/components/CountryClubCard";
 import { getBreadCrumbTextFields } from "@/utils/breadCrumbUtils";
 import { isValidCountry } from "@/utils/entryUtils";
+import logger from "@/utils/loggerUtils";
 import {
   getCountryPageTitle,
   getTextFieldsForCountryPage,
@@ -19,6 +20,7 @@ export async function generateMetadata({
   params: { country: string };
 }) {
   if (!isValidCountry(params.country)) {
+    logger.error("Invalid Page - ", { country: params.country });
     return {
       title: "Whoops, page not found",
     };

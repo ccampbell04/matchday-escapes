@@ -11,6 +11,7 @@ import {
 } from "@coreui/react";
 import { FormEvent, useReducer, useState } from "react";
 import { DynamicNumberInput } from "./DynamicNumberInput";
+import logger from "@/utils/loggerUtils";
 
 type State = {
   name: string;
@@ -76,9 +77,9 @@ export function ContactUsForm({
       }
 
       const result = await response.json();
-      console.log("Form submitted successfully:", result);
+      console.debug("Form submitted successfully:", result);
     } catch (error) {
-      console.error("Error submitting form:", error);
+      console.error("Error submitting form:", { error: error });
     } finally {
       setIsSubmitting(false);
     }

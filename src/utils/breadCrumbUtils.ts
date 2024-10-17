@@ -1,3 +1,5 @@
+import logger from "./loggerUtils";
+
 export function getBreadCrumbTextFields(
   params: Record<string, any> = {}
 ): Array<{ link: string; label: string }> {
@@ -22,5 +24,8 @@ export function getBreadCrumbTextFields(
     };
   });
 
+  logger.silly("BreadCrumbTextFields - ", {
+    textFields: breadCrumbTextFieldsArray,
+  });
   return breadCrumbTextFieldsArray;
 }

@@ -3,9 +3,10 @@ import { Carousel } from "@/components/Carousel";
 import { ContactUsForm } from "@/components/ContactUsForm";
 import { getBreadCrumbTextFields } from "@/utils/breadCrumbUtils";
 import { isValidClub } from "@/utils/entryUtils";
+import logger from "@/utils/loggerUtils";
 import {
   getClubPageTitle,
-  getTextFieldsForClubPage
+  getTextFieldsForClubPage,
 } from "@/utils/textFieldUtils";
 import { CCard, CCardBody, CCol } from "@coreui/react";
 import { Metadata } from "next";
@@ -34,6 +35,10 @@ export default function Page({
   params: { country: string; clubName: string };
 }) {
   if (!isValidClub(params.country, params.clubName)) {
+    logger.error("Invalid Page - ", {
+      country: params.country,
+      club: params.clubName,
+    });
     return (
       <>
         <h1>Whoops, page not found</h1>
