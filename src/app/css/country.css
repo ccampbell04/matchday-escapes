@@ -12,7 +12,7 @@
   --breadcrumb-link-colour: #ffffff;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   .germany {
     --breadcrumb-link-colour: #000000;
   }
