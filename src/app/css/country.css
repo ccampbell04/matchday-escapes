@@ -12,6 +12,12 @@
   --breadcrumb-link-colour: #ffffff;
 }
 
+@media (prefers-color-scheme: dark) {
+  .germany {
+    --breadcrumb-link-colour: #000000;
+  }
+}
+
 .spain {
   --primary-colour: #eb1000;
   --button-hover-colour: #c00d00;
