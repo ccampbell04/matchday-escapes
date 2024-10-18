@@ -3,6 +3,8 @@
 import { SubmitWithToast } from "@/components/SubmitWithToast";
 import {
   CButton,
+  CCard,
+  CCardBody,
   CCol,
   CForm,
   CFormInput,
@@ -98,123 +100,131 @@ export function ContactUsForm({
   });
 
   return (
-    <div className="formContainer">
-      <h2>{textFields.contactUsHeading}</h2>
-      <CForm className="row g-3" onSubmit={onSubmit}>
-        <CCol md={6}>
-          <CFormInput
-            name="name"
-            type="name"
-            id="inputName"
-            label={textFields.name}
-            value={state.name}
-            onChange={(e) => dispatch({ type: "name", value: e.target.value })}
-          />
-        </CCol>
-        <CCol md={6}>
-          <CFormInput
-            name="club"
-            type="club"
-            id="inputClub"
-            label={textFields.club}
-            placeholder={textFields.heading}
-            value={textFields.heading}
-            readOnly
-          />
-        </CCol>
-        <CCol md={6}>
-          <CFormInput
-            name="email"
-            type="email"
-            id="inputEmail"
-            label={textFields.email}
-            value={state.email}
-            onChange={(e) => dispatch({ type: "email", value: e.target.value })}
-          />
-        </CCol>
-        <CCol md={6}>
-          <CFormInput
-            name="phone"
-            type="phone"
-            id="inputPhone"
-            label={textFields.phone}
-            value={state.phone}
-            onChange={(e) => dispatch({ type: "phone", value: e.target.value })}
-          />
-        </CCol>
+    <CCard className="formContainer">
+      <CCardBody>
+        <h2>{textFields.contactUsHeading}</h2>
+        <CForm className="row g-3" onSubmit={onSubmit}>
+          <CCol md={6}>
+            <CFormInput
+              name="name"
+              type="name"
+              id="inputName"
+              label={textFields.name}
+              value={state.name}
+              onChange={(e) =>
+                dispatch({ type: "name", value: e.target.value })
+              }
+            />
+          </CCol>
+          <CCol md={6}>
+            <CFormInput
+              name="club"
+              type="club"
+              id="inputClub"
+              label={textFields.club}
+              placeholder={textFields.heading}
+              value={textFields.heading}
+              readOnly
+            />
+          </CCol>
+          <CCol md={6}>
+            <CFormInput
+              name="email"
+              type="email"
+              id="inputEmail"
+              label={textFields.email}
+              value={state.email}
+              onChange={(e) =>
+                dispatch({ type: "email", value: e.target.value })
+              }
+            />
+          </CCol>
+          <CCol md={6}>
+            <CFormInput
+              name="phone"
+              type="phone"
+              id="inputPhone"
+              label={textFields.phone}
+              value={state.phone}
+              onChange={(e) =>
+                dispatch({ type: "phone", value: e.target.value })
+              }
+            />
+          </CCol>
 
-        <DynamicNumberInput
-          stateComparison={state.length}
-          inputState={state.lengthGreaterThan7}
-          md={3}
-          name="length"
-          id="inputLength"
-          selectOnChange={(e) =>
-            dispatch({ type: "length", value: e.target.value })
-          }
-          inputOnChange={(e) =>
-            dispatch({ type: "lengthGreaterThan7", value: e.target.value })
-          }
-          labelText={textFields.length}
-          sevenPlusText={textFields.sevenPlus}
-        />
-
-        <DynamicNumberInput
-          stateComparison={state.numberOfGuests}
-          inputState={state.guestsGreaterThan7}
-          md={4}
-          name="numberOfGuests"
-          id="inputNumberOfGuests"
-          selectOnChange={(e) =>
-            dispatch({ type: "numberOfGuests", value: e.target.value })
-          }
-          inputOnChange={(e) =>
-            dispatch({ type: "guestsGreaterThan7", value: e.target.value })
-          }
-          labelText={textFields.numberOfGuests}
-          sevenPlusText={textFields.sevenPlus}
-        />
-
-        <CCol md={5}>
-          <CFormSelect
-            name="roomType"
-            id="inputRoomType"
-            label={textFields.roomType.label}
-            onChange={(e) =>
-              dispatch({ type: "roomType", value: e.target.value })
+          <DynamicNumberInput
+            stateComparison={state.length}
+            inputState={state.lengthGreaterThan7}
+            md={3}
+            name="length"
+            id="inputLength"
+            selectOnChange={(e) =>
+              dispatch({ type: "length", value: e.target.value })
             }
-          >
-            <option>{textFields.roomType.double}</option>
-            <option>{textFields.roomType.twin}</option>
-            <option>{textFields.roomType.single}</option>
-            <option>{textFields.roomType.suite}</option>
-          </CFormSelect>
-        </CCol>
-        <CCol md={12}>
-          <CFormInput
-            name="airports"
-            id="inputAirport"
-            label={textFields.localAirport.label}
-            placeholder={textFields.localAirport.placeholder}
-            value={state.airports}
-            onChange={(e) =>
-              dispatch({ type: "airports", value: e.target.value })
+            inputOnChange={(e) =>
+              dispatch({ type: "lengthGreaterThan7", value: e.target.value })
             }
+            labelText={textFields.length}
+            sevenPlusText={textFields.sevenPlus}
           />
-        </CCol>
-        <CCol xs={12}>
-          <center className="contactUsButton">
-            {!isSubmitting ? (
-              <SubmitWithToast textFields={textFields} />
-            ) : (
-              <CButton color="info" disabled>
-                <CSpinner as="span" size="sm" aria-hidden="true" />
-                {textFields.submitting}
-              </CButton>
-            )}
-          </center>
-        </CCol>
-      </CForm>
-    </div>
+
+          <DynamicNumberInput
+            stateComparison={state.numberOfGuests}
+            inputState={state.guestsGreaterThan7}
+            md={4}
+            name="numberOfGuests"
+            id="inputNumberOfGuests"
+            selectOnChange={(e) =>
+              dispatch({ type: "numberOfGuests", value: e.target.value })
+            }
+            inputOnChange={(e) =>
+              dispatch({ type: "guestsGreaterThan7", value: e.target.value })
+            }
+            labelText={textFields.numberOfGuests}
+            sevenPlusText={textFields.sevenPlus}
+          />
+
+          <CCol md={5}>
+            <CFormSelect
+              name="roomType"
+              id="inputRoomType"
+              label={textFields.roomType.label}
+              onChange={(e) =>
+                dispatch({ type: "roomType", value: e.target.value })
+              }
+            >
+              <option>{textFields.roomType.double}</option>
+              <option>{textFields.roomType.twin}</option>
+              <option>{textFields.roomType.single}</option>
+              <option>{textFields.roomType.suite}</option>
+            </CFormSelect>
+          </CCol>
+          <CCol md={12}>
+            <CFormInput
+              name="airports"
+              id="inputAirport"
+              label={textFields.localAirport.label}
+              placeholder={textFields.localAirport.placeholder}
+              value={state.airports}
+              onChange={(e) =>
+                dispatch({ type: "airports", value: e.target.value })
+              }
+            />
+          </CCol>
+          <CCol xs={12}>
+            <center className="contactUsButton">
+              {!isSubmitting ? (
+                <SubmitWithToast textFields={textFields} />
+              ) : (
+                <CButton color="info" disabled>
+                  <CSpinner as="span" size="sm" aria-hidden="true" />
+                  {textFields.submitting}
+                </CButton>
+              )}
+            </center>
+          </CCol>
+        </CForm>
+      </CCardBody>
+    </CCard>
   );
 }

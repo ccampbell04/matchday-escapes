@@ -6,19 +6,50 @@
 @import "./css/country.css";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Page colours */
+  --background: #181818;
+  --text-colour: #e1e1e1;
+
+  /* Header & Footer */
+  --footer-color: #e1e1e1;
+  --footer-background: #1f1f1f;
+  --header-color: #e1e1e1;
+  --header-hover: #6a6a6a;
+  --nav-link-hover: #3290ff;
+  --header-background: #1f1f1f;
+
+  /* Contact us card */
+  --contact-us-card-background: #2b2b2b;
+  --contact-us-card-border: #373737;
+  --contact-us-card-colour: #e1e1e1;
+  --contact-us-card-shadow: #222222;
+
   --primary-colour: #52a9ff;
   --button-hover-colour: #52a9cc;
-  --primary-text-colour: #ffffff;
+  --primary-text-colour: #e1e1e1;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: light) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+    /* Page colours */
+    /* --background: #f0f0f0; */
+    /* --text-colour: #1a1a1a; */
+
+    /* Header & Footer */
+    /* --footer-color: #1a1a1a; */
+    /* --footer-background: #f7f7f7; */
+    /* --header-color: #1a1a1a; */
+    /* --header-hover: #a0a0a0; */
+    /* --nav-link-hover: #0066cc; */
+    /* --header-background: #f7f7f7; */
+
+    /* Contact us card */
+    /* --contact-us-card-background: #ffffff; */
+    /* --contact-us-card-border: #dddddd; */
+    /* --contact-us-card-colour: #1a1a1a; */
+    /* --contact-us-card-shadow: #e0e0e0; */
+  /* } */
+/* } */
 
 html,
 body {
@@ -27,7 +58,7 @@ body {
 }
 
 body {
-  color: var(--foreground);
+  color: var(--text-colour);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
@@ -43,6 +74,41 @@ body {
 .formContainer {
   width: 65%;
   margin: 0 auto;
+  background: var(--contact-us-card-background);
+  border: 1px solid var(--contact-us-card-border);
+  box-shadow: var(--contact-us-card-shadow);
+  color: var(--contact-us-card-colour);
+}
+
+.header,
+.header-brand {
+  background: var(--header-background);
+  color: var(--header-color);
+  a:hover {
+    color: var(--header-hover);
+  }
+  .nav-link.active,
+  .nav-link,
+  .nav-link.dropdown-toggle {
+    color: var(--header-color);
+  }
+
+  .nav-link:hover {
+    color: var(--nav-link-hover);
+  }
+}
+
+.anchorFooter {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.footer {
+  background: var(--footer-background);
+  color: var(--footer-color);
 }
 
 .marginContainer {
@@ -92,14 +158,6 @@ h3 {
   height: auto; /* Maintain the natural aspect ratio of the image */
   object-fit: cover; /* Ensures the image covers the container without stretching */
   position: relative; /* Remove absolute positioning to ensure image loads correctly */
-}
-
-.anchorFooter {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  text-align: center;
 }
 
 .breadcrumb-item.active {

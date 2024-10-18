@@ -12,11 +12,11 @@
   --breadcrumb-link-colour: #ffffff;
 }
 
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
   .germany {
     --breadcrumb-link-colour: #000000;
   }
-}
+} */
 
 .spain {
   --primary-colour: #eb1000;
